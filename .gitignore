@@ -1,0 +1,7 @@
+.browser-test*/
+*-desktop.png
+*-mobile.png
+test-results*.html
+test-log*.txt
+.deploy-tools/
+*.zip
