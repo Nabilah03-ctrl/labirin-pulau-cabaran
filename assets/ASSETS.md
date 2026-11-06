@@ -22,3 +22,31 @@ Use case: stylized-concept. Asset type: transparent PNG character sprite atlas f
 
 Use case: stylized-concept. Asset type: one transparent 3-column by 2-row environment sprite atlas for a tropical island detective maze game. Six equal 512 by 512 square cells in a landscape image, centered individual isolated objects, genuinely transparent background, 12 percent clear padding around each object. Shared cute premium detailed 3D cartoon miniature aesthetic, warm sunny lighting, camera elevated about 55 degrees in a frontal three-quarter game view. Row 1 column 1: a lush dense SQUARE trimmed green hedge block, short cube of glossy tropical small leaves, subtle dark green side shadow, no pot or separate platform, suitable for repeated maze walls. Row 1 column 2: one charming tall tropical palm tree with curved tan trunk, lush green fronds and three coconuts. Row 1 column 3: small cluster of rounded warm gray tropical rocks with moss and tiny ferns. Row 2 column 1: a small closed wooden detective clue treasure chest with antique brass trim and large magnifying glass emblem, friendly design. Row 2 column 2: closed wooden arched gate with antique golden lock, two sandstone posts, green climbing leaves, no blue coloring. Row 2 column 3: charming white lighthouse with terracotta roof, golden glowing lantern, wooden door, small stone steps, green vines and a small red flag. No people, no text, no letters, no borders, no gridlines, no backgrounds, no floor rectangles. Every asset completely separate in its cell, same perspective, high detail, softly shaded, production-quality game sprites. Use emerald, turquoise accents, sandy golden stone, natural wood and warm brown, a lush island detective theme, not a police theme.
 
+
+## Ilustrasi pembelajaran bahan — 7 November 2026
+
+Mode: built-in `image_gen`, generate baharu, `transparent_background: true`. Ketiga-tiga PNG disalin ke workspace dan diperiksa secara visual. Label ditambah oleh HTML supaya boleh disembunyikan dalam soalan. SVG sandaran dilukis melalui kod dalam `learning.js`.
+
+### `assets/materials/tembakau.png`
+
+Prompt akhir:
+
+Use case: scientific-educational. Asset type: standalone educational illustration for an eight-year-old Malay health education detective game. Two broad green-brown tobacco leaves next to two unlit plain cigarettes, with a large clear red prohibition circle and diagonal slash over the cigarettes. No smoke, no people, no brands, no text. Friendly polished 3D cartoon educational objects, clearly recognizable uncluttered centered composition, rounded shapes, warm soft studio lighting, modest non-glamorous presentation, large objects fill 75 percent of a square image, genuinely transparent background, no floor, no frightening elements, no watermark. This image teaches children to identify and avoid addictive substances. Do not depict use or show a person using substances. No text anywhere; labels are added by the application.
+
+### `assets/materials/alkohol.png`
+
+Prompt akhir:
+
+Use case: scientific-educational. Asset type: standalone educational illustration for an eight-year-old Malay health education detective game. One plain unbranded amber beverage bottle with a blank cream rectangular label and one short stemmed drinking glass containing a little amber liquid. A clear red prohibition circle at upper right. The bottle label must be blank; its Malay category will be added with accessible HTML. No brand, no text, no people. Friendly polished 3D cartoon educational objects, clearly recognizable uncluttered centered composition, rounded shapes, warm soft studio lighting, modest non-glamorous presentation, large objects fill 75 percent of a square image, genuinely transparent background, no floor, no frightening elements, no watermark. This image teaches children to identify and avoid addictive substances. Do not depict use or show a person using substances. No text anywhere; labels are added by the application.
+
+### `assets/materials/dadah.png`
+
+Prompt akhir:
+
+Use case: scientific-educational. Asset type: standalone educational illustration for an eight-year-old Malay health education detective game. Two small sealed opaque brown-paper packets and one transparent sealed pouch of an unspecified white illegal substance, alongside a large yellow triangular exclamation warning sign and red prohibition mark. Unbranded simple educational evidence illustration. No pills, no syringes, no consumption, no preparation, no people, no lettering. Friendly polished 3D cartoon educational objects, clearly recognizable uncluttered centered composition, rounded shapes, warm soft studio lighting, modest non-glamorous presentation, large objects fill 75 percent of a square image, genuinely transparent background, no floor, no frightening elements, no watermark. This image teaches children to identify and avoid addictive substances. Do not depict use or show a person using substances. No text anywhere; labels are added by the application.
+
+## Audio Melayu
+
+Fail aktif: `assets/audio/ms-MY/*.mp3`, dipetakan oleh `audio-manifest.js`. `assets/audio/ms-MY/catalog.json` menyimpan teks tepat, tempoh dan suara bagi 72 rakaman aktif. Dijana menggunakan `edge-tts 7.3.1`, suara `ms-MY-YasminNeural`, kadar `-12%`. Sumber senarai bahasa: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts ; alat: https://github.com/rany2/edge-tts .
+
+Semua 72 rakaman disahkan sebagai MP3 dan dinyahkod oleh Chrome. Teks audio sepadan dengan paparan. Sebutan melalui pembesar suara sebenar belum disemak manusia. Tiga fail versi penerangan terdahulu disimpan tetapi tidak dirujuk oleh manifest.

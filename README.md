@@ -6,7 +6,28 @@ Permainan web Pendidikan Kesihatan Tahun 2, sepenuhnya dalam Bahasa Melayu. Tema
 
 Buka `index.html` dalam Chrome, Microsoft Edge, Firefox atau Safari. Tiada pemasangan atau proses binaan diperlukan. Kekalkan folder `assets` bersama fail HTML, CSS dan JavaScript.
 
-Untuk penerbitan, muat naik `index.html`, `styles.css`, `content.js`, `world.js`, `app.js` dan folder `assets` ke hos web statik seperti GitHub Pages. Google Fonts hanya digunakan jika internet tersedia; fon sistem menjadi gantian.
+Untuk penerbitan, muat naik `index.html`, `styles.css`, `content.js`, `learning.js`, `audio-manifest.js`, `voice.js`, `world.js`, `app.js` dan folder `assets` ke hos web statik seperti GitHub Pages. Google Fonts hanya digunakan jika internet tersedia; fon sistem menjadi gantian.
+
+Laman permainan: https://nabilah03-ctrl.github.io/labirin-pulau-cabaran/
+
+## Penambahbaikan 7 November 2026
+
+- **Kenali Bahan:** tiga ilustrasi besar, label, nota ubat, penerangan bersuara dan latihan tanpa markah. SVG sandaran muncul jika PNG gagal.
+- **Cara Bermain:** enam langkah bergambar, suara, penerangan simbol dan demonstrasi kawalan. Latihan memerlukan murid bergerak, berhenti dan menjawab soalan contoh; boleh diulang dari jeda tanpa memadam kemajuan.
+- **Audio Bahasa Melayu:** 72 fail MP3 tempatan, suara `ms-MY-YasminNeural` dengan kadar bacaan dikurangkan 12%. Dengar soalan, setiap pilihan, semua pilihan, petunjuk, penerangan atau ulang bacaan. Teks disorot; audio sebelumnya dibatalkan. Tiada muzik latar; bunyi ganjaran tidak dimainkan ketika suara membaca.
+- **Mod Berpandu, Kendiri dan Kelas:** pilih semasa mendaftar atau dalam jeda. Mod Kelas membesarkan soalan dan memerlukan guru menekan Teruskan selepas jawapan betul. Tiada had masa.
+- **Kawalan:** papan kekunci atau pad arah untuk tetikus/sentuh. Pad berada di luar kanvas.
+- **Panduan Guru:** objektif, peralatan, langkah pengajaran, aktiviti berpasangan, perbincangan dan penilaian. Rekod mengikut tiga fokus merangkumi jawapan pertama, percubaan dan petunjuk. Skor tidak menentukan tahap penguasaan rasmi.
+
+Label kategori disembunyikan dalam soalan pengecaman sehingga jawapan betul disahkan. Kegagalan audio tidak menghalang jawapan atau kemajuan.
+
+## Audio dan batasan
+
+Rakaman Melayu disertakan bersama aplikasi. Pengaktifan awal memerlukan tindakan pengguna. Jika rakaman gagal, hanya suara sistem berbahasa `ms` digunakan sebagai sandaran; bahasa lain tidak dipilih. Jika kedua-duanya gagal, mesej teks dipaparkan dan permainan boleh diteruskan.
+
+**Teks baharu suntingan guru tidak mempunyai MP3 prajanaan.** Ia memerlukan suara Melayu pada peranti; jika tiada, teks boleh dibaca tanpa suara. Audio asal tidak digunakan untuk membaca teks yang berubah. Bunyi melalui pembesar suara/fon kepala, Safari/iOS dan telefon fizikal masih memerlukan semakan pengguna; ujian automatik menggunakan Chrome Windows dan paparan telefon 390px.
+
+Peta teks/audio: `assets/audio/ms-MY/catalog.json`. Rekod aset dan prompt: `assets/ASSETS.md`. Perubahan: `CHANGES.md`. Keputusan ujian sebenar: `tests/RESULTS.md`.
 
 ## Tiga tahap
 

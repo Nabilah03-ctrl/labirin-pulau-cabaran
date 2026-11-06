@@ -17,3 +17,12 @@ window.PULAU={
   {id:'selamat-3',level:2,title:'Bantu Aini mendapatkan bantuan',symbol:'♡',prompt:'Kamu menjumpai bungkusan yang tidak dikenali di sekolah. Apakah tindakan selamat?',options:['Buka dan cuba isinya','Bawa pulang untuk disimpan','Jangan sentuh. Jauhkan diri dan beritahu guru.'],answer:2,hint:'Jangan cuba bahan yang tidak dikenali. Guru boleh membantu kamu.',explanation:'Bagus! Jauhkan diri dan beritahu guru. Ingat tiga langkah: katakan TIDAK, beredar ke tempat selamat, beritahu orang dewasa yang dipercayai.',scene:'Aini mengajak rakannya menjauh dan mendapatkan bantuan guru.'}
  ]
 };
+
+// Image questions deliberately omit category names before an answer is confirmed.
+PULAU.questions.forEach((q,i)=>{q.image=['tembakau','alkohol','dadah'][i%3];q.focus=['Kenali bahan','Padankan gambar','Tindakan selamat'][q.level];});
+Object.assign(PULAU.questions[0],{title:'Kenali gambar pertama',prompt:'Lihat daun dan rokok dengan simbol larangan. Apakah bahan ketagihan yang berkaitan?'});
+Object.assign(PULAU.questions[1],{title:'Kenali gambar kedua',prompt:'Botol dan gelas dalam gambar ini menunjukkan minuman jenis apa?',hint:'Minuman ini perlu dijauhi. Namanya ialah alkohol.'});
+Object.assign(PULAU.questions[2],{title:'Kenali gambar ketiga',prompt:'Bungkusan dengan simbol amaran ini merujuk kepada bahan apa?',options:['Tembakau','Alkohol','Dadah terlarang'],hint:'Simbol amaran mengingatkan kita supaya menjauhi dadah terlarang.'});
+Object.assign(PULAU.questions[3],{prompt:'Padankan gambar daun dan rokok ini dengan kategori yang betul.',explanation:'Bukti tepat! Daun dan rokok dalam gambar dipadankan dengan tembakau. Kamu memperoleh satu kunci laluan.'});
+Object.assign(PULAU.questions[4],{prompt:'Padankan gambar botol dan gelas minuman ini dengan kategori yang betul.',hint:'Botol dan gelas ini mewakili minuman beralkohol.',explanation:'Bagus! Botol dan gelas dalam gambar dipadankan dengan alkohol. Kunci kedua membuka laluan seterusnya.'});
+Object.assign(PULAU.questions[5],{prompt:'Padankan gambar bungkusan dengan simbol amaran ini dengan kategori yang betul.',hint:'Bungkusan ini mewakili dadah terlarang.',explanation:'Tepat! Bungkusan dengan simbol amaran dalam gambar dipadankan dengan dadah terlarang. Jangan sentuh bahan yang tidak dikenali.'});

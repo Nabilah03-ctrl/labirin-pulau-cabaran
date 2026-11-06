@@ -1,0 +1,506 @@
+[
+  {
+    "file": "assets/audio/ms-MY/0b485734acd2e7d90f.mp3",
+    "text": "Soalan 1. Lihat daun dan rokok dengan simbol larangan. Apakah bahan ketagihan yang berkaitan?",
+    "seconds": 10.97,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/078936f70dfccb044e.mp3",
+    "text": "Pilihan A. Tembakau",
+    "seconds": 3.02,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/85569b13f590d21136.mp3",
+    "text": "Pilihan B. Alkohol",
+    "seconds": 3.1,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/043111c891168f3702.mp3",
+    "text": "Pilihan C. Dadah",
+    "seconds": 2.74,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/0c0ae0ce35fa97ee25.mp3",
+    "text": "Simbol ini berkaitan dengan rokok. Rokok mengandungi tembakau.",
+    "seconds": 7.1,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/812bb7aeb9f60392e9.mp3",
+    "text": "Hebat! Rokok berkaitan dengan tembakau. Jauhi asap rokok dan pilih udara bersih.",
+    "seconds": 9.74,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/9cc1871fb18cf807ab.mp3",
+    "text": "Soalan 2. Botol dan gelas dalam gambar ini menunjukkan minuman jenis apa?",
+    "seconds": 7.94,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/a094ab03a6adbab024.mp3",
+    "text": "Minuman ini perlu dijauhi. Namanya ialah alkohol.",
+    "seconds": 6.58,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/3b73813e14b58bafbf.mp3",
+    "text": "Betul! Minuman beralkohol mengandungi alkohol. Alkohol boleh menjejaskan kesihatan. Pilih air kosong.",
+    "seconds": 12.67,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/cd12214c89798de406.mp3",
+    "text": "Soalan 3. Bungkusan dengan simbol amaran ini merujuk kepada bahan apa?",
+    "seconds": 7.82,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/93853582d4267b93be.mp3",
+    "text": "Pilihan C. Dadah terlarang",
+    "seconds": 3.38,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/fe91817131a0af177e.mp3",
+    "text": "Simbol amaran mengingatkan kita supaya menjauhi dadah terlarang.",
+    "seconds": 5.69,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/afe4e11045200c72bb.mp3",
+    "text": "Tepat! Jauhi dadah terlarang. Bukan semua ubat ialah dadah terlarang. Ambil ubat hanya mengikut arahan orang dewasa yang bertanggungjawab atau petugas kesihatan.",
+    "seconds": 15.94,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/4da7c5087e17d4c6ad.mp3",
+    "text": "Soalan 1. Padankan gambar daun dan rokok ini dengan kategori yang betul.",
+    "seconds": 8.11,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/ec70c4a7d30c93fe31.mp3",
+    "text": "Pilihan A. ALKOHOL",
+    "seconds": 3.17,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/61f4aeef2981eaf9cf.mp3",
+    "text": "Pilihan B. DADAH",
+    "seconds": 2.71,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/26bcc5caafc3b7545e.mp3",
+    "text": "Pilihan C. TEMBAKAU",
+    "seconds": 3.19,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/e97371320d4e3b6a8c.mp3",
+    "text": "Asap rokok berkaitan dengan tembakau.",
+    "seconds": 4.08,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/871c6e2d62df8d34a7.mp3",
+    "text": "Bukti tepat! Daun dan rokok dalam gambar dipadankan dengan tembakau. Kamu memperoleh satu kunci laluan.",
+    "seconds": 11.23,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/52d039d6a5872b5f0a.mp3",
+    "text": "Soalan 2. Padankan gambar botol dan gelas minuman ini dengan kategori yang betul.",
+    "seconds": 8.52,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/af64d0bb28c6ed770a.mp3",
+    "text": "Pilihan B. TEMBAKAU",
+    "seconds": 3.26,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/96b5cea18717a43c89.mp3",
+    "text": "Pilihan C. DADAH",
+    "seconds": 2.74,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/89a9aeee42db1d0b24.mp3",
+    "text": "Botol dan gelas ini mewakili minuman beralkohol.",
+    "seconds": 4.87,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/0222016dc22230474f.mp3",
+    "text": "Bagus! Botol dan gelas dalam gambar dipadankan dengan alkohol. Kunci kedua membuka laluan seterusnya.",
+    "seconds": 11.16,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/6296ab3cef9e3943c8.mp3",
+    "text": "Soalan 3. Padankan gambar bungkusan dengan simbol amaran ini dengan kategori yang betul.",
+    "seconds": 8.86,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/7319d581bd442c2bfa.mp3",
+    "text": "Pilihan A. TEMBAKAU",
+    "seconds": 3.05,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/ff9ad97782db142e2b.mp3",
+    "text": "Pilihan C. ALKOHOL",
+    "seconds": 3.19,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/6c704854b15df0f563.mp3",
+    "text": "Bungkusan ini mewakili dadah terlarang.",
+    "seconds": 4.1,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/a2cfafa19e3dcef5e0.mp3",
+    "text": "Tepat! Bungkusan dengan simbol amaran dalam gambar dipadankan dengan dadah terlarang. Jangan sentuh bahan yang tidak dikenali.",
+    "seconds": 12.07,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/286d339efb590e2c6f.mp3",
+    "text": "Soalan 1. Rakan mengajak kamu mencuba rokok. Apakah tindakan kamu?",
+    "seconds": 9.19,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/2dd6ccacfede3cdc1d.mp3",
+    "text": "Pilihan A. Cuba untuk menjaga hati rakan",
+    "seconds": 4.97,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/52e94b1f8eea442f2c.mp3",
+    "text": "Pilihan B. Tidak, saya tidak mahu. Saya beredar dan beritahu guru.",
+    "seconds": 9.53,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/9c397de94dfa992243.mp3",
+    "text": "Pilihan C. Simpan rokok itu",
+    "seconds": 3.96,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/7be338933cd03db221.mp3",
+    "text": "Kamu berhak berkata TIDAK. Beredar dan dapatkan bantuan orang dewasa.",
+    "seconds": 7.32,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/559163681eabc8855f.mp3",
+    "text": "Berani dan bijak! Katakan TIDAK dengan tegas, beredar ke tempat selamat dan beritahu guru.",
+    "seconds": 9.24,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/8b5c318637c239c34c.mp3",
+    "text": "Hud berkata “TIDAK!” lalu berjalan ke arah guru.",
+    "seconds": 5.33,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/cacb2129a26426681c.mp3",
+    "text": "Soalan 2. Seseorang menawarkan minuman beralkohol di taman. Kamu akan…",
+    "seconds": 9.29,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/aa5a15a58ba44c5606.mp3",
+    "text": "Pilihan A. Tolak, beredar dan beritahu penjaga",
+    "seconds": 5.02,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/e256445b8ede05c815.mp3",
+    "text": "Pilihan B. Minum sedikit sahaja",
+    "seconds": 4.25,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/502b17ba982e6d428b.mp3",
+    "text": "Pilihan C. Ikut orang itu",
+    "seconds": 3.53,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/4e1580f2c973ff88d2.mp3",
+    "text": "Pilih tindakan yang menjauhkan kamu daripada bahaya dan mendapatkan bantuan.",
+    "seconds": 6.65,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/15bfa638890c517951.mp3",
+    "text": "Pilihan selamat! Tolak pelawaan, beredar dan beritahu penjaga yang kamu percayai.",
+    "seconds": 8.62,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/e2846522da5d556013.mp3",
+    "text": "Izz beredar dari tempat itu dan mendapatkan bantuan penjaga.",
+    "seconds": 5.4,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/385a84b0b9ad44e05a.mp3",
+    "text": "Soalan 3. Kamu menjumpai bungkusan yang tidak dikenali di sekolah. Apakah tindakan selamat?",
+    "seconds": 10.39,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/4f297ea99b1629f928.mp3",
+    "text": "Pilihan A. Buka dan cuba isinya",
+    "seconds": 3.96,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/7e0a7936091dea5c01.mp3",
+    "text": "Pilihan B. Bawa pulang untuk disimpan",
+    "seconds": 4.58,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/1c5790829716f5c858.mp3",
+    "text": "Pilihan C. Jangan sentuh. Jauhkan diri dan beritahu guru.",
+    "seconds": 8.64,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/8807e27f3520fd3acf.mp3",
+    "text": "Jangan cuba bahan yang tidak dikenali. Guru boleh membantu kamu.",
+    "seconds": 7.27,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/e0da1dd38137a2e6e2.mp3",
+    "text": "Bagus! Jauhkan diri dan beritahu guru. Ingat tiga langkah: katakan TIDAK, beredar ke tempat selamat, beritahu orang dewasa yang dipercayai.",
+    "seconds": 15.02,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/2f04962db2d1377020.mp3",
+    "text": "Aini mengajak rakannya menjauh dan mendapatkan bantuan guru.",
+    "seconds": 5.5,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/55e83428168193db33.mp3",
+    "text": "Tembakau. Tembakau terdapat dalam rokok. Asap rokok membahayakan kesihatan. Jauhi asap rokok dan pilih udara bersih.",
+    "seconds": 14.04,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/4c03976bb518ab5998.mp3",
+    "text": "Alkohol. Alkohol terdapat dalam minuman beralkohol. Minuman ini boleh menjejaskan kesihatan dan pertimbangan. Pilih air kosong.",
+    "seconds": 14.42,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/419f7a3d7654bb2713.mp3",
+    "text": "Dadah. Jauhi dadah terlarang. Jangan sentuh atau cuba bahan yang tidak dikenali. Beritahu orang dewasa yang dipercayai. Bukan semua ubat ialah dadah terlarang.",
+    "seconds": 17.59,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/e3946f30d049c8f5e7.mp3",
+    "text": "Ubat hanya diambil mengikut arahan doktor atau orang dewasa yang bertanggungjawab.",
+    "seconds": 6.7,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/04ec9c99f3e218a497.mp3",
+    "text": "1. Pilih watak detektif. Masukkan nama dan kelas. Pilih Hud, Izz atau Aini sebagai rakan pengembaraan kamu.",
+    "seconds": 13.06,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/5e770d3a22cf63c859.mp3",
+    "text": "2. Gerakkan watak. Ikuti laluan berpasir. Dinding dan pokok renek tidak boleh ditembusi. Lepaskan kawalan untuk berhenti.",
+    "seconds": 14.09,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/87625b101db0f49847.mp3",
+    "text": "3. Cari lokasi soalan. Cari peti atau rakan bertanda soalan. Berhenti berdekatan, kemudian tekan Siasat atau kekunci E.",
+    "seconds": 14.09,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/5a39ad1fc080b02d94.mp3",
+    "text": "4. Dengar dan baca. Tekan Dengar Semua untuk mendengar soalan dan pilihan jawapan. Kamu juga boleh mendengar setiap pilihan secara berasingan.",
+    "seconds": 13.78,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/456c5e3478c49819c7.mp3",
+    "text": "5. Pilih dan sahkan. Pilih satu jawapan, kemudian tekan Sahkan jawapan. Dengar penerangan. Jika belum tepat, gunakan petunjuk dan cuba lagi.",
+    "seconds": 16.54,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/cbe798699cccb8df41.mp3",
+    "text": "6. Buka jalan selamat. Selesaikan semua petunjuk. Gunakan kunci untuk membuka pintu dan cari jalan ke Rumah Api Selamat. Jauhi laluan berbahaya.",
+    "seconds": 16.08,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/4293d135f820e1f9f2.mp3",
+    "text": "Gunakan kekunci anak panah atau W, A, S, D untuk bergerak. Lepaskan kekunci untuk berhenti. Tekan E untuk menyiasat.",
+    "seconds": 13.94,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/8f6fea3b18347a55f1.mp3",
+    "text": "Tekan dan tahan butang arah pada skrin untuk bergerak. Lepaskan butang untuk berhenti. Tekan Siasat apabila sudah dekat.",
+    "seconds": 11.69,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/3bea19027144d5ed83.mp3",
+    "text": "Belum tepat. Lihat gambar dan dengar petunjuk, kemudian cuba lagi.",
+    "seconds": 7.61,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/ac7000210b07a6d23f.mp3",
+    "text": "Latihan tanpa markah. Cuba bergerak di laluan berpasir.",
+    "seconds": 2.64,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/5e98eced2c3a8dbd3f.mp3",
+    "text": "Sekarang berhenti dekat peti latihan dan tekan Siasat.",
+    "seconds": 4.94,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/6fe7771d02a9404c27.mp3",
+    "text": "Hebat! Kamu sudah bergerak, berhenti dan menjawab soalan contoh. Latihan ini tidak mengubah markah atau kemajuan kamu.",
+    "seconds": 12.48,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/0323220ed2e584ab12.mp3",
+    "text": "Saya mahu mendengar panduan dan soalan dalam Bahasa Melayu.",
+    "seconds": 5.35,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/9d2090ef6e80294c8d.mp3",
+    "text": "Soalan latihan. Apabila rakan mengajak kamu mencuba rokok, apakah pilihan selamat?",
+    "seconds": 8.69,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/159b5cee4ce11cf263.mp3",
+    "text": "Pilihan A. Katakan tidak dan beritahu guru",
+    "seconds": 4.51,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/9086dc6fa875cd0941.mp3",
+    "text": "Pilihan B. Cuba sedikit sahaja",
+    "seconds": 4.27,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/fe5e1eb52b239765b0.mp3",
+    "text": "Kamu berhak berkata tidak. Guru boleh membantu kamu.",
+    "seconds": 6.34,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  },
+  {
+    "file": "assets/audio/ms-MY/0f751fbedfcaf65789.mp3",
+    "text": "Betul! Katakan TIDAK, beredar ke tempat selamat dan beritahu orang dewasa yang dipercayai.",
+    "seconds": 9.46,
+    "voice": "ms-MY-YasminNeural",
+    "language": "ms-MY"
+  }
+]
