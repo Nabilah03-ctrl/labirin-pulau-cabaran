@@ -1,3 +1,15 @@
+# 8 November 2026 — Pulau, pintu kod dan harta karun
+
+- Ganti dinding pokok dengan empat kawasan pulau pada setiap peta; empat pokok hiasan, pantai, jeti, gua, bot, air terjun, menara dan rumah api. Kamera lancar dan paparan seluruh pulau.
+- Tambah empat stesen setiap peta, 12 soalan satu sesi dan bank tetap 36 entri. Seimbangkan pilihan A/B/C, kekalkan padanan audio dan simpan susunan semasa.
+- Dua belas pintu berkod dua digit, kad sepadan, buku kod boleh dibuka semula, pad nombor dan papan kekunci. Salah kod tidak memadam kemajuan.
+- Satu digit harta selepas empat stesen dan empat pintu; tiga ruang kod berasingan dan peti akhir dengan animasi, lencana, kosmetik, ringkasan serta sijil sedia ada.
+- Simpan semakan setiap stesen/pintu. Migrasi mengekalkan jawapan, pintu terbuka dan aksesori lama; tambah stesen keempat tanpa mengulang soalan lama.
+- 465 rakaman aktif Melayu serta 11 rakaman warisan. Kekalkan panduan, latihan, rekod guru, CSV, kawalan, aksesibiliti dan sijil.
+- Ujian semasa digabungkan dalam expedition.html dan learning.html. Bahagian lama di bawah ialah rekod sejarah, bukan spesifikasi versi semasa.
+
+---
+
 # Kemas kini sijil dan rentak permainan — 7 November 2026
 
 - Sijil mengikut susun atur rujukan: putih, bingkai biru-kuning, nama besar, dua watak, bintang dan lencana sebenar; pratonton, muat turun, cetak/PDF.

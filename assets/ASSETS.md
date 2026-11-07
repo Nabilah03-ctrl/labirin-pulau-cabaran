@@ -66,3 +66,7 @@ Fon Latin DM Sans dan Fredoka dimuat turun daripada Google Fonts dan dibungkus s
 Sijil dibina dalam SVG oleh `certificate.js` mengikut susun atur rujukan pengguna. Watak menggunakan sprite sedia ada, dirender melalui canvas dan dibenamkan sebagai PNG dalam SVG; tiada imej watak baharu dijana. Fail berdiri sendiri untuk dimuat turun/dicetak.
 
 Katalog aktif kini mengandungi 211 rakaman Melayu (1640.5 saat merentas semua teks/set), dengan 11 pemetaan rakaman terdahulu di `assets/audio/ms-MY/legacy.json` bagi sesi lama.
+
+## Tambahan 8 November 2026
+
+Pemandangan pulau dalam `island-art.js` dilukis terus menggunakan Canvas: pantai, batu, karang, jeti, pondok, kem, gua, menara, rumah api, bot, burung dan air. Tiada imej raster baharu dijana untuk kemas kini ini. Sprite detektif dan peti menggunakan aset sedia ada. Audio aktif kini 465 rakaman; 11 fail warisan dikekalkan. Teks, suara dan durasi ada dalam `audio/ms-MY/catalog.json`.

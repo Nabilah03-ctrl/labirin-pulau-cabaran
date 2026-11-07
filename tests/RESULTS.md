@@ -1,87 +1,28 @@
-# Keputusan terkini — sijil, laluan ringkas dan soalan berbeza
+# Keputusan versi pulau dan kod — 8 November 2026
 
-Tarikh: 7 November 2026. Ujian Chrome pada pelayan HTTP tempatan menggunakan profil pelayar berasingan.
+Chrome pada hos HTTP tempatan, profil ujian berasingan. **1,420 semakan lulus dan empat ujian input sentuh sebenar melalui emulasi Chrome lulus.** Tiada ralat JavaScript dalam pelaksanaan berjaya.
 
-| Suite | Lulus | Fokus |
+| Suite | Lulus | Liputan |
 |---|---:|---|
-| Labirin | 179 | Semua tahap, pintu, penamat, sijil, simpan sesi dan rekod guru |
-| Pembelajaran/audio | 493 | 211 rakaman aktif dan 11 rakaman serasi sesi lama; teks/audio serta kegagalan audio |
-| Kempen | 271 | Mekanik tahap, cerita, ganjaran, sentuhan, variasi dan sambung sesi |
-| Penambahbaikan terkini | 37 | Sijil, cetak, soalan unik, laluan pendek dan migrasi sesi |
-
-**980 semakan lulus, ditambah dua ujian input sentuh Chrome yang lulus.** Tiada ralat JavaScript dalam pelaksanaan berjaya ini.
-
-- Sijil mengikuti susun atur rujukan: putih, bingkai biru-kuning, nama besar, dua detektif dan bintang/lencana sebenar. SVG sah, gambar terbenam untuk dicetak tanpa pautan aset luar, nama/kelas dilepaskan dengan selamat, pratonton muat pada 390px. Butang cetak menyediakan dokumen A4 melintang; muat turun menghasilkan fail SVG lengkap.
-- Laluan utama kini 19, 23 dan 27 sel (sebelum ini 31, 41 dan 51), interaksi pertama pada sel ketiga dan cabang pilihan maksimum satu langkah. Semua lokasi wajib dan keluar masih boleh dicapai.
-- Setiap sesi mempunyai 12 prompt penilaian yang berbeza. Tiga set memberi 33 prompt laluan/akhir berbeza; set dikitar semula selepas semuanya digunakan. Aktiviti susunan langkah dikekalkan. Tiada dakwaan bank ini tidak berulang selama-lamanya.
-- Kad Tahap 2 mengelaskan risiko, pilihan selamat dan bantuan orang dewasa. Misi akhir memadankan dua ilustrasi dan memilih bantuan yang sesuai. Latihan kawalan Siasat berbeza daripada latihan keselamatan.
-- Sesi lama mengekalkan soalan yang sudah dicuba dan suntingan guru. Kad lama yang belum dicuba dinaik taraf. Set akhir disimpan dan stabil selepas muat semula.
-- Ujian `Input.dispatchTouchEvent` mengesahkan seretan pada kad baharu dan ketikan kad/kategori selepas jawapan salah. Ini emulasi Chrome, bukan telefon fizikal.
-
-Bukti: `test-results-refine-maze.html`, `test-results-refine-learning.html`, `test-results-refine-campaign.html`, `test-results-refine-focused2.html`, pelaksanaan `refine-sort-mobile`, dan tangkapan skrin `certificate-refined-desktop.png`. `test-results.html` ialah ringkasan statik yang tidak menjalankan ujian ketika dibuka.
-
-Had: telefon fizikal, Safari/iOS, pencetak fizikal, dialog PDF sistem operasi, sebutan oleh pendengar manusia dan tempoh sebenar bersama murid belum disahkan. Tindakan cetak diuji dengan pengganti tetingkap cetak dalam Chrome; sijil SVG dan pratonton gambar diuji melalui pemuatan sebenar.
-
----
-
-Rekod di bawah ialah keputusan versi kempen terdahulu, sebelum penambahbaikan sijil/laluan ini.
-
-# Keputusan ujian sebenar — kempen Rumah Api Selamat
-
-Tarikh: 7 November 2026 (Asia/Kuala_Lumpur). Persekitaran: Windows, Chrome headless, pelayan HTTP tempatan dan profil pelayar ujian berasingan.
-
-## Keputusan
-
-| Suite | Keputusan | Skop utama |
-|---|---:|---|
-| `tests/browser.html` | 179 lulus | Laluan, dinding, tiga tahap, soalan/cuba semula, pintu automatik dan berkunci, misi akhir, sijil, CSV, simpan/sambung, kamera/pad telefon |
-| `tests/learning.html` | 402 lulus | Menu, gambar/sandaran, panduan, latihan tanpa markah, tiga mod, kawalan, audio gagal, sorotan, rekod serta semua fail audio |
-| `tests/campaign.html` | 271 lulus | Mekanik berbeza, objek pilihan, cerita/peta, misi watak, ganjaran sekali sahaja, koleksi, seretan/ketikan, variasi sesi, bantuan laluan dan penamat |
-| Input sentuh Chrome DevTools | 2 lulus | Seretan kad bermula pada imej sebenar; ketikan kad/kategori selepas jawapan salah |
-
-**852 semakan dalam tiga suite, ditambah dua semakan input sentuh pelayar, semuanya lulus.** Tiada ralat JavaScript direkodkan pada pelaksanaan berjaya ini. Ujian menggunakan kod aplikasi sebenar dalam iframe dan pergerakan melalui laluan labirin.
-
-Ujian sentuh melalui `Input.dispatchTouchEvent` menemui isu penangkapan penuding apabila seretan bermula pada imej di dalam kad. Pengendalian kehilangan penangkapan penuding dibetulkan; ujian seretan serta ketikan dipercayai oleh pelayar kemudian lulus. Ini ialah emulasi Chrome, bukan ujian telefon fizikal.
+| Pengembaraan (`expedition.html`) | 419 | Semua 12 stesen, 12 pintu, tiga digit, peti, penamat, sijil, simpan/sambung, migrasi dan bank |
+| Pembelajaran/audio (`learning.html`) | 1,001 | Panduan, latihan, mod kelas, bantuan, rekod guru, semua teks audio dan penyahkodan 476 MP3 |
+| Input sentuh Chrome | 4 | Seret kad, ketik kad/kategori selepas cuba semula, kod salah, buku kod dan pintu betul |
 
 ## Perkara yang disahkan
 
-- Tahap 1 mengenal pasti gambar; label tersembunyi sebelum jawapan. Salah/cuba semula tidak memilih soalan lain.
-- Tahap 2 boleh diselesaikan menggunakan HTML drag/drop, ketikan kad kemudian kategori dan peristiwa sentuh. Pengelasan betul membuka pintu yang sepadan.
-- Tahap 3 menggunakan Hud/asap, Izz/pelawaan dan Aini/bungkusan. Aini tidak melabel bungkusan tidak dikenali sebagai dadah selepas jawapan tindakan selamat. Animasi/ucapan terima kasih dan butang langkau berfungsi.
-- Kemajuan lampu, jambatan dan rumah api sepadan dengan tahap. Sesi boleh disambung ketika cerita tahap belum diteruskan atau ketika hanya sebahagian misi akhir selesai.
-- Ganjaran mempunyai pratonton; pengesahan berganda tidak menambah skor atau menduplikasi aksesori. Aini mengekalkan watak/tudung. Koleksi, aksesori dipakai dan koleksi selepas sesi baharu disimpan.
-- Objek tambahan tidak membuka dialog secara automatik, boleh diperiksa semula dan ditanda selesai; tidak diwajibkan untuk keluar. Petunjuk arah menuju kemajuan wajib.
-- Misi akhir meliputi kenal gambar, tindakan baharu dan susunan dengan konteks pelawaan. Urutan salah boleh dicuba semula; seretan dan ketikan menyokong penamat. Tiga cahaya, ringkasan bergambar/bersuara dan sijil tersedia.
-- Bank tetap mempunyai tiga variasi bagi enam fokus. Set baharu berbeza, set semasa kekal selepas muat semula dan grid labirin sama semasa ulang main.
-- Bantuan ditawarkan apabila kawasan dilalui berulang kali; bantuan tidak memberi jawapan atau menolak markah. Tempat semakan, kurangkan animasi, hentikan halangan, pad arah dan papan kekunci berfungsi.
-- 171 teks katalog mempunyai rakaman sepadan. Semua 171 MP3 berjaya dinyahkod menggunakan AudioContext Chrome; metadata fail turut disahkan dengan Mutagen. Kegagalan fail audio dan ketiadaan suara Melayu tidak menghalang jawapan atau sambungan permainan.
-- Tiga PNG dan enam SVG variasi dimuatkan; SVG sandaran juga diuji. Paparan kad telefon 390px, cerita/rumah api dan pratonton aksesori diperiksa melalui tangkapan skrin.
+- Empat stesen tersebar di empat penjuru setiap peta; semua stesen dan pintu dicapai melalui pergerakan fizikal watak. Pintu tertutup tidak boleh dipintas. Semua jalan keluar boleh dicapai selepas pintu selesai.
+- Pokok kelapa maksimum empat setiap peta. Jejak bangunan dan batu sepadan dengan perlanggaran. Pantai, jeti, gua dan rumah api diperiksa melalui tangkapan skrin; peta menyeluruh dan kamera mengikuti watak tersedia.
+- Tiga set tetap mempunyai empat soalan setiap tahap. Setiap sesi mempunyai 12 prompt berbeza. Untuk 40 benih bagi setiap set, A/B/C seimbang, tiada tiga huruf jawapan sama berturut-turut, jawapan selepas acakan kekal bermakna sama.
+- Kod diberikan selepas jawapan selesai, disimpan dengan identiti pintu betul dan boleh dilihat semula. Pad nombor dan input papan kekunci berfungsi. Kod salah mengekalkan rekod dan keadaan pintu. Memasukkan kod tidak dikira sebagai soalan.
+- Digit harta belum tersedia sebelum keempat-empat pintu selesai. Buku mengekalkan urutan tiga digit berasingan. Kod peti salah tidak merosakkan kemajuan. Kod betul membuka peti dan penamat; animasi boleh dilangkau.
+- Jawapan salah kekal pada soalan sama. Pengesahan berulang tidak memberi ganjaran berganda. Latihan tidak mengubah markah. Urutan seret/susun boleh dicuba semula.
+- Muat semula mengekalkan susunan soalan, kod, pintu, kemajuan dan ganjaran yang belum dipilih. Migrasi sesi lama mengekalkan jawapan, pintu terbuka serta koleksi; pemain meneruskan stesen keempat baharu.
+- Sijil 1400px dengan potret terbenam masih dirender pada penamat. Ringkasan bersuara dan ganjaran aksesori tersedia. Editor guru menyokong betul/salah tanpa pilihan ketiga palsu.
+- Katalog 465 rakaman aktif sepadan dengan teks. 11 rakaman warisan turut boleh dinyahkod. 476 MP3 dimuat dan dinyahkod dalam pelayar. Bacaan pilihan selepas acakan sepadan dengan hurufnya. Kegagalan audio diuji dan permainan masih boleh diteruskan.
+- Paparan desktop 1440px dan buku kod 390px diperiksa. Input sentuh menggunakan `Input.dispatchTouchEvent`, bukan sekadar panggilan klik JavaScript.
 
-## Rentak permainan
+## Had semakan
 
-| Tahap | Sel laluan utama | Jarak interaksi pertama | Objek pilihan |
-|---|---:|---:|---:|
-| Cari dan Kenali | 31 | 3 sel | 3 |
-| Susun Bukti | 41 | 3 sel | 3 |
-| Bantu Rakan Selamat | 51 | 3 sel | 3 |
+Telefon/tablet fizikal, Safari, cetakan pada pencetak sebenar dan ujian pengguna bersama murid belum dilakukan. Penyahkodan audio mengesahkan fail boleh dimainkan, bukan semakan sebutan manusia bagi setiap rakaman. Sasaran masa 10–15 minit belum disahkan dengan murid. Sesi menggunakan semula bank selepas tiga set; tiada jaminan soalan tidak akan berulang selama-lamanya.
 
-Cabang tanpa tujuan dipendekkan kepada maksimum dua langkah dari laluan utama. Semua lokasi wajib, objek tambahan dan jalan keluar mempunyai laluan tanpa memasuki bahaya. Sasaran keseluruhan **10–15 minit belum disahkan bersama murid**; jarak berjalan dipendekkan supaya masa tertumpu pada membaca, mendengar dan berbincang.
-
-## Bukti tempatan dan had
-
-Laporan: `test-results-inspect-startup.html`, `test-results-final-learning2.html`, `test-results-final-campaign2.html`. Semakan sentuhan: pelaksanaan `trusted-touch3-mobile` melalui `.deploy-tools/browser_check.py`. Tangkapan skrin: `release-sort-mobile.png`, `campaign-ending2-desktop.png` dan pratonton aksesori.
-
-Belum diuji: telefon fizikal, Safari/iOS, sesi sebenar bersama murid, dan pendengaran manusia terhadap sebutan/kelantangan pada pembesar suara. Suntingan teks guru memerlukan suara sistem Melayu jika tiada rakaman untuk teks baharu. Bank telah disemak untuk padanan kandungan oleh pembangun; lihat `BANK-REVIEW.md`, bukan pengesahan kurikulum rasmi.
-
-Halaman ujian memulakan sesi contoh. Gunakan profil pelayar ujian berasingan supaya rekod murid sebenar tidak terjejas. Versi diterbitkan turut disemak terus melalui GitHub Pages seperti rekod di bawah.
-
-
-## Pengesahan GitHub Pages
-
-Versi kod `324e2b5de142bde633a4db4d22ace533b63d7027` disahkan pada 7 November 2026 melalui pautan sebenar https://nabilah03-ctrl.github.io/labirin-pulau-cabaran/.
-
-Ketiga-tiga suite lulus semula: 179 semakan labirin, 402 semakan pembelajaran/audio dan 271 semakan kempen (**852 keseluruhan**). Semua 171 MP3 diterima daripada laman yang diterbitkan dan berjaya dinyahkod dalam Chrome. Tiada ralat JavaScript direkodkan dalam pelaksanaan berjaya.
-
-Pemuatan awal gambar melebihi had masa pelaksanaan pertama pada sambungan ujian. Masa menunggu dilanjutkan; ujian susulan menggunakan profil pelayar ujian yang sama dengan cache aset, serta storan kemajuan dikosongkan antara suite. Sebahagian audio dimuat awal dengan empat permintaan serentak untuk mempercepat semakan; setiap rakaman tetap diuji oleh suite. Ini bukan penanda aras prestasi pemuatan pertama.
-
-Bukti tempatan: `test-results-live-maze-campaign2.html`, `test-results-live-learning-campaign.html` dan `test-results-live-full-campaign2.html`.
+Ujian ini memadam storan permainan pada origin ujian. Gunakan profil atau origin berasingan daripada sesi murid. `test-results.html` ialah ringkasan statik yang selamat dilihat tanpa mengubah kemajuan.
