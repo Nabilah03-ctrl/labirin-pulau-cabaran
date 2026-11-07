@@ -1,17 +1,15 @@
-# Penambahbaikan permainan — 7 November 2026
+# Perubahan — kempen Rumah Api Selamat, 7 November 2026
 
-Tema pulau tropika dan detektif dikekalkan bersama tiga tahap dan syarat kunci/jalan keluar.
+1. **Tiga mekanik berbeza:** kenal gambar; susun kad dengan seretan atau ketikan; pilih tindakan dalam misi watak. Demonstrasi ringkas mendahului mekanik baharu.
+2. **Cerita berkembang:** lampu laluan menyala, jambatan dipulihkan dan rumah api bersinar. Dialog bersuara mempunyai kawalan teruskan, ulang, langkau dan jeda. Keadaan peta dan cerita disimpan.
+3. **Misi Hud, Izz dan Aini:** laluan bebas asap, berani menolak, serta jangan sentuh bungkusan tidak dikenali dan beritahu guru. Rupa bungkusan tidak dianggap bukti kandungannya.
+4. **Ganjaran kosmetik pilihan:** pratonton pada watak, satu pilihan setiap tahap, Koleksi Saya dan simpanan pemakaian. Koleksi dikekalkan ketika sesi baharu. Ganjaran tiada kesan pada markah atau jawapan.
+5. **Objek tambahan:** sembilan objek maklumat dekat laluan utama, ikon/label pilihan, butang Siasat, audio ulang dan tanda diperiksa. Tiada syarat keluar tambahan.
+6. **Maklum balas:** sorotan padanan, petunjuk berkaitan pilihan salah, animasi beredar/mendapatkan bantuan dan ucapan terima kasih. Animasi boleh dilangkau atau dikurangkan; pengesahan berulang tidak menggandakan ganjaran.
+7. **Misi akhir:** tiga tugasan bersepadu menyalakan tiga bahagian rumah api. Aktiviti urutan menggunakan konteks pelawaan; boleh seret atau tekan. Kemajuan separa disimpan, diikuti ringkasan bergambar/bersuara dan sijil.
+8. **Variasi ulang main:** tiga set tetap merangkumi enam fokus, enam imej SVG tambahan, set disimpan bagi sesi semasa. Cuba semula tidak menukar soalan atau jawapan.
+9. **Rentak dan bantuan:** laluan tetap yang lebih pendek, interaksi pertama dekat, lorong buntu pendek, bantuan selepas ulang laluan, tempat semakan dan petunjuk yang mudah ditemui.
 
-1. Tiga gambar pendidikan untuk tembakau, alkohol dan dadah terlarang, termasuk PNG telus dan SVG sandaran. Label penuh ditunjukkan dalam pembelajaran atau selepas jawapan betul. Nota ubat membezakan rawatan yang diarahkan dengan bahan terlarang.
-2. Menu Kenali Bahan, Cara Bermain, Mula Bermain, Sambung Permainan dan Panduan Guru; kawalan suara serta kelantangan.
-3. Galeri bahan bersuara, soalan latihan, panduan enam langkah, simbol, demonstrasi kawalan dan latihan interaktif tanpa markah. Mengulang latihan tidak menghapuskan kemajuan.
-4. 72 rakaman Melayu sepadan dengan teks soalan, pilihan, petunjuk, penerangan dan panduan. Bacaan satu saluran, sorotan teks, Dengar Semua, Henti Suara dan Ulang. Rakaman rosak mempunyai laluan pemulihan tanpa menghalang permainan.
-5. Mod Berpandu/Kendiri/Kelas dan kawalan papan kekunci atau pad. Pad berada di luar kawasan labirin. Guru mengawal sambungan selepas jawapan dalam Mod Kelas.
-6. Soalan padanan merujuk gambar sebenar. Jawapan pertama dikekalkan selepas cuba semula. Pergerakan dan latihan asas tidak mengubah rekod prestasi soalan.
-7. Panduan pedagogi guru serta ringkasan tiga fokus, percubaan, petunjuk soalan dan petunjuk arah; lajur tambahan dalam CSV. Tiada penetapan tahap penguasaan rasmi secara automatik.
+Turut disertakan 171 MP3 Melayu, fon tempatan berlesen OFL, pembetulan seretan sentuh apabila bermula pada gambar dalam kad, serta pengekalan panduan/rekod/CSV/kawalan sedia ada.
 
-## Pengesahan dan batasan
-
-Lihat [keputusan ujian](tests/RESULTS.md). Ujian menggunakan Chrome Windows; gambar turut diperiksa pada susun atur desktop dan telefon. Semua rakaman dalam manifest berjaya dinyahkod oleh pelayar.
-
-Teks baharu suntingan guru memerlukan suara Melayu pada peranti. Semakan manusia terhadap sebutan dan kelantangan melalui perkakasan sebenar, serta ujian Safari/iOS dan telefon fizikal, belum dibuat. Jika suara tidak tersedia, permainan memaparkan teks dan boleh diteruskan. Internet diperlukan untuk muatan awal aset; ini bukan aplikasi luar talian dengan service worker.
+Keputusan sebenar dan batasan terdapat dalam [laporan ujian](tests/RESULTS.md). Sasaran 10–15 minit masih perlu dinilai bersama murid; emulasi sentuhan tidak menggantikan ujian telefon fizikal. Teks baharu suntingan guru masih memerlukan suara sistem Melayu jika tiada rakaman.

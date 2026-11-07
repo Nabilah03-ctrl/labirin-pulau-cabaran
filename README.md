@@ -1,67 +1,55 @@
 # Labirin Pulau Cabaran: Misi Detektif Cilik
 
-Permainan web Pendidikan Kesihatan Tahun 2, sepenuhnya dalam Bahasa Melayu. Tema pulau tropika dan detektif menggunakan laut biru kehijauan, hijau tumbuhan, pasir keemasan dan pakaian detektif coklat. Ilustrasi serta sprite kartun 3D ialah aset asal yang dijana untuk projek ini.
+Permainan Pendidikan Kesihatan Tahun 2 dalam Bahasa Melayu, dengan tema pulau tropika dan detektif. Laman awam: https://nabilah03-ctrl.github.io/labirin-pulau-cabaran/
 
-## Mainkan
+## Misi dan mekanik
 
-Buka `index.html` dalam Chrome, Microsoft Edge, Firefox atau Safari. Tiada pemasangan atau proses binaan diperlukan. Kekalkan folder `assets` bersama fail HTML, CSS dan JavaScript.
+Rumah Api Selamat kehilangan cahayanya. Hud, Izz dan Aini menyelesaikan tiga misi untuk membantu pasukan pulang.
 
-Untuk penerbitan, muat naik `index.html`, `styles.css`, `content.js`, `learning.js`, `audio-manifest.js`, `voice.js`, `world.js`, `app.js` dan folder `assets` ke hos web statik seperti GitHub Pages. Google Fonts hanya digunakan jika internet tersedia; fon sistem menjadi gantian.
+1. **Cari dan Kenali:** cari tiga peti, kenali gambar dan pilih kategori. Label jawapan tersembunyi sehingga jawapan betul. Selepas tahap ini, lampu penunjuk menyala.
+2. **Susun Bukti:** seret kad ke kategori atau tekan kad kemudian kategori. Pengelasan yang disahkan membuka pintu seterusnya. Selepas tahap ini, jambatan dipulihkan.
+3. **Bantu Rakan Selamat:** bantu Hud memilih laluan bebas asap, Izz menolak pelawaan alkohol dan Aini meminta bantuan bagi bungkusan tidak dikenali. Animasi menunjukkan tindakan selamat dan ucapan terima kasih.
 
-Laman permainan: https://nabilah03-ctrl.github.io/labirin-pulau-cabaran/
+**Misi Rumah Api Selamat** di hujung tahap ketiga menggabungkan pengenalpastian, situasi baharu dan susunan TIDAK → BEREDAR → BERITAHU. Susunan menyokong seretan dan ketikan. Setiap kejayaan menyalakan satu bahagian rumah api. Kemajuan setiap bahagian disimpan; tiada keperluan mengulang seluruh tahap selepas jawapan salah.
 
-## Penambahbaikan 7 November 2026
+## Pembelajaran dan kawalan
 
-- **Kenali Bahan:** tiga ilustrasi besar, label, nota ubat, penerangan bersuara dan latihan tanpa markah. SVG sandaran muncul jika PNG gagal.
-- **Cara Bermain:** enam langkah bergambar, suara, penerangan simbol dan demonstrasi kawalan. Latihan memerlukan murid bergerak, berhenti dan menjawab soalan contoh; boleh diulang dari jeda tanpa memadam kemajuan.
-- **Audio Bahasa Melayu:** 72 fail MP3 tempatan, suara `ms-MY-YasminNeural` dengan kadar bacaan dikurangkan 12%. Dengar soalan, setiap pilihan, semua pilihan, petunjuk, penerangan atau ulang bacaan. Teks disorot; audio sebelumnya dibatalkan. Tiada muzik latar; bunyi ganjaran tidak dimainkan ketika suara membaca.
-- **Mod Berpandu, Kendiri dan Kelas:** pilih semasa mendaftar atau dalam jeda. Mod Kelas membesarkan soalan dan memerlukan guru menekan Teruskan selepas jawapan betul. Tiada had masa.
-- **Kawalan:** papan kekunci atau pad arah untuk tetikus/sentuh. Pad berada di luar kanvas.
-- **Panduan Guru:** objektif, peralatan, langkah pengajaran, aktiviti berpasangan, perbincangan dan penilaian. Rekod mengikut tiga fokus merangkumi jawapan pertama, percubaan dan petunjuk. Skor tidak menentukan tahap penguasaan rasmi.
+- Menu Kenali Bahan, Cara Bermain, Mula Bermain, Sambung Permainan, Panduan Guru dan Koleksi Saya.
+- Galeri besar dengan nota ubat, tiga PNG pendidikan dan enam variasi SVG. Ilustrasi sandaran muncul jika fail gambar gagal.
+- Panduan enam langkah, latihan bergerak/berhenti/menjawab tanpa markah, serta demonstrasi sebelum mekanik setiap tahap.
+- Mod Berpandu, Kendiri dan Kelas. Mod Kelas membesarkan soalan dan guru memilih masa untuk meneruskan.
+- Papan kekunci anak panah/WASD atau pad arah tetikus/sentuh. E untuk Siasat; P untuk petunjuk. Pad berada di luar kanvas.
+- Petunjuk arah kekal tersedia di pengepala permainan. Bantuan ditawarkan selepas kawasan dilalui berulang kali. Terdapat tempat semakan, tanda selesai, pilihan kurangkan animasi dan hentikan halangan bergerak.
+- Sembilan objek pilihan berhampiran laluan utama: papan tanda, buku, peti pembelajaran dan papan pesanan. Interaksi memerlukan tindakan pemain dan bukan syarat tersembunyi untuk keluar.
 
-Label kategori disembunyikan dalam soalan pengecaman sehingga jawapan betul disahkan. Kegagalan audio tidak menghalang jawapan atau kemajuan.
+## Cerita, koleksi dan ulang main
 
-## Audio dan batasan
+Peta menunjukkan lampu, jambatan dan rumah api mengikut kemajuan. Dialog cerita maksimum dua ayat, dengan Teruskan, Ulang Suara, Langkau Animasi dan Jeda Animasi. Kegagalan audio tidak menghalang cerita atau soalan.
 
-Rakaman Melayu disertakan bersama aplikasi. Pengaktifan awal memerlukan tindakan pengguna. Jika rakaman gagal, hanya suara sistem berbahasa `ms` digunakan sebagai sandaran; bahasa lain tidak dipilih. Jika kedua-duanya gagal, mesej teks dipaparkan dan permainan boleh diteruskan.
+Setiap tahap menawarkan satu pilihan kosmetik tetap: hiasan topi, beg, kanta pembesar atau lencana. Pratonton menggunakan watak yang dipilih; Aini mengekalkan tudung. Aksesori tidak menambah skor atau kelebihan menjawab. Koleksi dan pilihan pemakaian disimpan, termasuk ketika memulakan set soalan baharu. Tiada pembelian atau ganjaran rawak.
 
-**Teks baharu suntingan guru tidak mempunyai MP3 prajanaan.** Ia memerlukan suara Melayu pada peranti; jika tiada, teks boleh dibaca tanpa suara. Audio asal tidak digunakan untuk membaca teks yang berubah. Bunyi melalui pembesar suara/fon kepala, Safari/iOS dan telefon fizikal masih memerlukan semakan pengguna; ujian automatik menggunakan Chrome Windows dan paparan telefon 390px.
+Bank tetap mengandungi sekurang-kurangnya tiga variasi bagi enam fokus pembelajaran. Sesi baharu memilih set seterusnya; set semasa disimpan untuk Sambung Permainan. Soalan tidak berubah ketika cuba semula. Lihat [semakan bank](tests/BANK-REVIEW.md).
 
-Peta teks/audio: `assets/audio/ms-MY/catalog.json`. Rekod aset dan prompt: `assets/ASSETS.md`. Perubahan: `CHANGES.md`. Keputusan ujian sebenar: `tests/RESULTS.md`.
+## Audio Bahasa Melayu
 
-## Tiga tahap
+171 rakaman MP3 tempatan menggunakan `ms-MY-YasminNeural`, kadar bacaan dikurangkan 12%. Semua teks berada dalam `assets/audio/ms-MY/catalog.json` dan dipetakan oleh `audio-manifest.js`. Angka ini merangkumi semua variasi, bukan tempoh satu sesi.
 
-1. **Labirin Kenali Bahan:** tiga peti memperkenalkan tembakau, alkohol dan dadah. Selesaikan semuanya sebelum keluar.
-2. **Labirin Jejak Bukti:** kelaskan tiga kad bukti. Setiap tugasan memberi kunci kepada satu pintu. Kunci digunakan dengan berinteraksi pada pintu.
-3. **Labirin Pilihan Selamat:** bantu Hud, Izz dan Aini menolak pelawaan berbahaya, beredar dan mendapatkan bantuan. Lengkapkan semua lokasi sebelum masuk Rumah Api Selamat.
+Tersedia bacaan soalan, setiap pilihan, semua pilihan, petunjuk, penerangan, dialog, objek dan ringkasan. Bacaan menggunakan satu saluran, menyorot teks dan dibatalkan apabila paparan bertukar. Pengaktifan awal memerlukan tindakan pengguna. Jika fail gagal, hanya suara sistem Melayu digunakan; jika tiada, teks dan permainan tetap tersedia. Bunyi ganjaran tidak bertindih dengan suara; tiada muzik latar.
 
-Labirin mempunyai simpang, lorong buntu, dinding dengan perlanggaran, kawasan berasap, jambatan rosak dan halangan perlahan di laluan sampingan. Semua lokasi wajib mempunyai laluan tanpa perlu memasuki kawasan berbahaya. Peta mini dan butang petunjuk menunjukkan kedudukan serta laluan ke sasaran wajib seterusnya.
+Teks baharu suntingan guru tidak mempunyai MP3 prajanaan dan memerlukan suara Melayu pada peranti. Audio lama tidak dipadankan kepada teks yang sudah berubah. Suntingan disimpan bersama sesi semasa; sesi baharu memilih bank seterusnya.
 
-## Kawalan
+## Rekod dan penyimpanan
 
-- Anak panah / WASD: bergerak.
-- E: siasat petunjuk, gunakan kunci atau masuk jalan keluar.
-- P: tunjukkan laluan menuju sasaran seterusnya.
-- Tekan laluan berpasir untuk berjalan ke situ.
-- Telefon/tablet: pad arah, Petunjuk dan Siasat.
-- Escape atau butang jeda: rehat, bunyi, kurangkan animasi dan hentikan halangan bergerak.
+localStorage menyimpan nama/kelas, watak, set soalan, jawapan pertama, percubaan, petunjuk, kemajuan labirin/cerita/misi akhir, objek diperiksa dan aksesori. Tiada akaun, penghantaran nama ke pelayan atau penyegerakan merentas peranti.
 
-Dialog menjeda simulasi. Jawapan memerlukan pemilihan serta pengesahan berasingan. Kesilapan pergerakan mengembalikan pemain ke tempat semakan tanpa mengubah jawapan, bintang atau bilangan percubaan pembelajaran. Tiada pemasa lalai.
+Panduan Guru merangkumi objektif, peralatan, langkah, aktiviti berpasangan, perbincangan dan penilaian. CSV mengandungi respons, fokus pembelajaran, percubaan dan petunjuk. Skor permainan tidak menetapkan tahap penguasaan rasmi. Kesilapan pergerakan tidak mengurangkan skor pembelajaran. Sijil SVG boleh dimuat turun di penamat.
 
-## Kemajuan, guru dan sijil
+## Menjalankan dan menerbitkan
 
-Kemajuan serta suntingan soalan disimpan dalam localStorage pelayar pada peranti yang sama. Versi labirin menggunakan kunci storan baharu dan tidak memadam rekod versi lima pulau.
+Buka `index.html` atau gunakan hos HTTP statik. Kekalkan `index.html`, `styles.css`, `content.js`, `learning.js`, `campaign.js`, `voice.js`, `audio-manifest.js`, `world.js`, `app.js` dan seluruh folder `assets`. Tiada proses binaan. Fon DM Sans/Fredoka disertakan secara tempatan bersama lesen OFL supaya muatan permainan tidak menunggu Google Fonts.
 
-Ruang Guru menyediakan pemilihan mana-mana tahap, suntingan sembilan soalan/pilihan/petunjuk/penerangan, pelarasan halangan, semakan respons pertama dan bilangan percubaan, serta eksport CSV UTF-8. Ia ialah ruang kawalan tempatan tanpa sistem akaun atau pelayan.
+Lihat [perubahan](CHANGES.md), [keputusan ujian sebenar](tests/RESULTS.md) dan [rekod aset/prompt](assets/ASSETS.md). Halaman ujian memulakan sesi contoh; gunakan profil pelayar berasingan daripada rekod murid.
 
-Jawapan betul pertama memberi 10 bintang; betul selepas bimbingan memberi 5. Pengulangan tidak menggandakan ganjaran soalan yang sudah selesai. Penguasaan guru dinilai berasingan daripada bintang. Rekod pertama kekal ketika mengulang tahap; gunakan “Mulakan sesi murid baharu” untuk murid seterusnya.
+## Had pengesahan
 
-Tiga tahap memberikan tiga lencana. Pada penamat, sijil SVG dengan nama dan kelas boleh dimuat turun dan dicetak melalui pelayar.
-
-## Pengujian
-
-`tests/browser.html` ialah ujian hujung ke hujung dalam pelayar sebenar. Ia menguji laluan selamat setiap labirin, perlanggaran dinding, kawalan, semua soalan, pintu berkunci, kunci, panduan arah, keluar, maklum balas cuba semula, tempat semakan, simpan/sambung, mod guru, CSV, sijil dan paparan 390 piksel.
-
-Jalankan ujian dalam profil pelayar berasingan kerana ia memulakan sesi ujian baharu. Gunakan pelayan statik tempatan atau Chromium dengan `--allow-file-access-from-files` untuk ujian berasaskan fail. Keputusan semakan semasa terdapat dalam `tests/RESULTS.md`.
-
-Maklumat aset dan prompt penjanaan disimpan dalam `assets/ASSETS.md`.
+Laluan utama dipendekkan kepada 31, 41 dan 51 sel; interaksi wajib pertama berada tiga sel dari permulaan. Tempoh 10–15 minit ialah sasaran reka bentuk, belum keputusan ujian bersama murid. Semakan sentuhan dibuat melalui emulasi Chrome; telefon fizikal, Safari/iOS serta pendengaran sebutan melalui perkakasan sebenar belum diuji. Internet diperlukan untuk muatan awal laman; tiada service worker luar talian.

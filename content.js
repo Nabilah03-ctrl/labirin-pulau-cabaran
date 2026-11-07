@@ -1,9 +1,9 @@
 'use strict';
 window.PULAU={
  levels:[
-  {name:'Labirin Kenali Bahan',short:'Kenali Bahan',description:'Jejaki tiga peti misteri dan kenali tembakau, alkohol serta dadah.',badge:'Pengesan Petunjuk',icon:'⌕',tag:'TEROKA & KENALI',cols:13,rows:11,seed:271,art:3,color:'#d9edcf'},
-  {name:'Labirin Jejak Bukti',short:'Jejak Bukti',description:'Kelaskan kad bukti untuk mendapatkan tiga kunci dan membuka laluan.',badge:'Pakar Jejak Bukti',icon:'🔑',tag:'KELASKAN & BUKA',cols:17,rows:13,seed:892,art:4,color:'#f5e7c5'},
-  {name:'Labirin Pilihan Selamat',short:'Pilihan Selamat',description:'Bantu rakan membuat pilihan selamat dan sampai ke Rumah Api Selamat.',badge:'Wira Pulau Selamat',icon:'♧',tag:'FIKIR & BERTINDAK',cols:19,rows:15,seed:141,art:5,color:'#d5eae6'}
+  {name:'Labirin Cari dan Kenali',short:'Cari dan Kenali',description:'Cari peti, kenali bahan melalui gambar dan nyalakan lampu laluan.',badge:'Pengesan Petunjuk',icon:'⌕',tag:'CARI & KENALI',cols:13,rows:11,seed:271,art:3,color:'#d9edcf'},
+  {name:'Labirin Susun Bukti',short:'Susun Bukti',description:'Seret atau tekan kad untuk mengelaskan bukti dan memulihkan jambatan.',badge:'Pakar Jejak Bukti',icon:'🔑',tag:'SUSUN & KELASKAN',cols:17,rows:13,seed:892,art:4,color:'#f5e7c5'},
+  {name:'Labirin Bantu Rakan Selamat',short:'Bantu Rakan',description:'Bantu Hud, Izz dan Aini memilih tindakan selamat, kemudian hidupkan rumah api.',badge:'Wira Pulau Selamat',icon:'♧',tag:'BANTU & BERTINDAK',cols:19,rows:15,seed:141,art:5,color:'#d5eae6'}
  ],
  questions:[
   {id:'kenali-1',level:0,title:'Petunjuk tembakau',symbol:'🚭',prompt:'Simbol dilarang merokok berkaitan dengan bahan apa?',options:['Tembakau','Alkohol','Dadah'],answer:0,hint:'Simbol ini berkaitan dengan rokok. Rokok mengandungi tembakau.',explanation:'Hebat! Rokok berkaitan dengan tembakau. Jauhi asap rokok dan pilih udara bersih.'},

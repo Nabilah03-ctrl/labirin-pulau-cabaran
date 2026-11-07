@@ -50,3 +50,13 @@ Use case: scientific-educational. Asset type: standalone educational illustratio
 Fail aktif: `assets/audio/ms-MY/*.mp3`, dipetakan oleh `audio-manifest.js`. `assets/audio/ms-MY/catalog.json` menyimpan teks tepat, tempoh dan suara bagi 72 rakaman aktif. Dijana menggunakan `edge-tts 7.3.1`, suara `ms-MY-YasminNeural`, kadar `-12%`. Sumber senarai bahasa: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts ; alat: https://github.com/rany2/edge-tts .
 
 Semua 72 rakaman disahkan sebagai MP3 dan dinyahkod oleh Chrome. Teks audio sepadan dengan paparan. Sebutan melalui pembesar suara sebenar belum disemak manusia. Tiga fail versi penerangan terdahulu disimpan tetapi tidak dirujuk oleh manifest.
+
+## Aset kempen Rumah Api Selamat ? 7 November 2026
+
+Enam variasi SVG ialah ilustrasi vektor kod asal yang melanjutkan gaya ilustrasi sandaran sedia ada, bukan imej raster AI: `assets/materials/tembakau-1.svg`, `tembakau-2.svg`, `alkohol-1.svg`, `alkohol-2.svg`, `dadah-1.svg`, `dadah-2.svg`. Kad dan papan pendidikan mengekalkan simbol larangan/amaran serta tiada jenama. Label kategori ditambah oleh aplikasi selepas respons yang betul.
+
+Peta cerita, cahaya rumah api, jambatan dan animasi maklum balas dibina melalui HTML/CSS. Aksesori kosmetik ialah lapisan lukisan canvas dalam `world.js`; imej asal detektif tidak diubah. Tudung dan pakaian Aini dikekalkan.
+
+Katalog audio kini mempunyai 171 rakaman aktif (1343.6 saat untuk semua variasi). Semua menggunakan kaedah, suara dan kadar bacaan yang dinyatakan di atas. Semakan meliputi padanan teks dan penyahkodan MP3; tempoh ini bukan tempoh satu sesi permainan.
+
+Fon Latin DM Sans dan Fredoka dimuat turun daripada Google Fonts dan dibungkus sebagai `assets/fonts/dm-sans-0.woff2` dan `assets/fonts/fredoka-1.woff2`. Lesen OFL daripada repositori rasmi google/fonts disertakan sebagai `assets/fonts/dmsans-OFL.txt` dan `assets/fonts/fredoka-OFL.txt`. Fon tempatan mengelakkan muatan skrip menunggu import CSS luar.
