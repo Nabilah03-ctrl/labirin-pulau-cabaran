@@ -45,4 +45,15 @@ Laporan: `test-results-inspect-startup.html`, `test-results-final-learning2.html
 
 Belum diuji: telefon fizikal, Safari/iOS, sesi sebenar bersama murid, dan pendengaran manusia terhadap sebutan/kelantangan pada pembesar suara. Suntingan teks guru memerlukan suara sistem Melayu jika tiada rakaman untuk teks baharu. Bank telah disemak untuk padanan kandungan oleh pembangun; lihat `BANK-REVIEW.md`, bukan pengesahan kurikulum rasmi.
 
-Halaman ujian memulakan sesi contoh. Gunakan profil pelayar ujian berasingan supaya rekod murid sebenar tidak terjejas. Versi diterbitkan disemak semula melalui GitHub Pages sebelum pautan akhir diberikan.
+Halaman ujian memulakan sesi contoh. Gunakan profil pelayar ujian berasingan supaya rekod murid sebenar tidak terjejas. Versi diterbitkan turut disemak terus melalui GitHub Pages seperti rekod di bawah.
+
+
+## Pengesahan GitHub Pages
+
+Versi kod `324e2b5de142bde633a4db4d22ace533b63d7027` disahkan pada 7 November 2026 melalui pautan sebenar https://nabilah03-ctrl.github.io/labirin-pulau-cabaran/.
+
+Ketiga-tiga suite lulus semula: 179 semakan labirin, 402 semakan pembelajaran/audio dan 271 semakan kempen (**852 keseluruhan**). Semua 171 MP3 diterima daripada laman yang diterbitkan dan berjaya dinyahkod dalam Chrome. Tiada ralat JavaScript direkodkan dalam pelaksanaan berjaya.
+
+Pemuatan awal gambar melebihi had masa pelaksanaan pertama pada sambungan ujian. Masa menunggu dilanjutkan; ujian susulan menggunakan profil pelayar ujian yang sama dengan cache aset, serta storan kemajuan dikosongkan antara suite. Sebahagian audio dimuat awal dengan empat permintaan serentak untuk mempercepat semakan; setiap rakaman tetap diuji oleh suite. Ini bukan penanda aras prestasi pemuatan pertama.
+
+Bukti tempatan: `test-results-live-maze-campaign2.html`, `test-results-live-learning-campaign.html` dan `test-results-live-full-campaign2.html`.
