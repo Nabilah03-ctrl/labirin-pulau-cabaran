@@ -1,3 +1,11 @@
+# Kemas kini sijil dan rentak permainan — 7 November 2026
+
+- Sijil mengikut susun atur rujukan: putih, bingkai biru-kuning, nama besar, dua watak, bintang dan lencana sebenar; pratonton, muat turun, cetak/PDF.
+- Laluan dipendekkan daripada 31/41/51 kepada 19/23/27 sel; cabang pilihan maksimum satu langkah. Semua tiga tahap dan lokasi pembelajaran dikekalkan.
+- Tiga kad Tahap 2 kini mengelaskan jenis maklumat; soalan akhir memadankan dua gambar dan memilih bantuan. Latihan kawalan tidak mengulang latihan keselamatan.
+- Dua belas tugasan berbeza setiap sesi; 33 soalan laluan/akhir merentas tiga set sebelum kitar semula. Soalan semasa dan kandungan guru dikekalkan ketika naik taraf.
+- 211 rakaman aktif serta 11 rakaman serasi sesi lama.
+
 # Perubahan — kempen Rumah Api Selamat, 7 November 2026
 
 1. **Tiga mekanik berbeza:** kenal gambar; susun kad dengan seretan atau ketikan; pilih tindakan dalam misi watak. Demonstrasi ringkas mendahului mekanik baharu.

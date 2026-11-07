@@ -1,3 +1,31 @@
+# Keputusan terkini — sijil, laluan ringkas dan soalan berbeza
+
+Tarikh: 7 November 2026. Ujian Chrome pada pelayan HTTP tempatan menggunakan profil pelayar berasingan.
+
+| Suite | Lulus | Fokus |
+|---|---:|---|
+| Labirin | 179 | Semua tahap, pintu, penamat, sijil, simpan sesi dan rekod guru |
+| Pembelajaran/audio | 493 | 211 rakaman aktif dan 11 rakaman serasi sesi lama; teks/audio serta kegagalan audio |
+| Kempen | 271 | Mekanik tahap, cerita, ganjaran, sentuhan, variasi dan sambung sesi |
+| Penambahbaikan terkini | 37 | Sijil, cetak, soalan unik, laluan pendek dan migrasi sesi |
+
+**980 semakan lulus, ditambah dua ujian input sentuh Chrome yang lulus.** Tiada ralat JavaScript dalam pelaksanaan berjaya ini.
+
+- Sijil mengikuti susun atur rujukan: putih, bingkai biru-kuning, nama besar, dua detektif dan bintang/lencana sebenar. SVG sah, gambar terbenam untuk dicetak tanpa pautan aset luar, nama/kelas dilepaskan dengan selamat, pratonton muat pada 390px. Butang cetak menyediakan dokumen A4 melintang; muat turun menghasilkan fail SVG lengkap.
+- Laluan utama kini 19, 23 dan 27 sel (sebelum ini 31, 41 dan 51), interaksi pertama pada sel ketiga dan cabang pilihan maksimum satu langkah. Semua lokasi wajib dan keluar masih boleh dicapai.
+- Setiap sesi mempunyai 12 prompt penilaian yang berbeza. Tiga set memberi 33 prompt laluan/akhir berbeza; set dikitar semula selepas semuanya digunakan. Aktiviti susunan langkah dikekalkan. Tiada dakwaan bank ini tidak berulang selama-lamanya.
+- Kad Tahap 2 mengelaskan risiko, pilihan selamat dan bantuan orang dewasa. Misi akhir memadankan dua ilustrasi dan memilih bantuan yang sesuai. Latihan kawalan Siasat berbeza daripada latihan keselamatan.
+- Sesi lama mengekalkan soalan yang sudah dicuba dan suntingan guru. Kad lama yang belum dicuba dinaik taraf. Set akhir disimpan dan stabil selepas muat semula.
+- Ujian `Input.dispatchTouchEvent` mengesahkan seretan pada kad baharu dan ketikan kad/kategori selepas jawapan salah. Ini emulasi Chrome, bukan telefon fizikal.
+
+Bukti: `test-results-refine-maze.html`, `test-results-refine-learning.html`, `test-results-refine-campaign.html`, `test-results-refine-focused2.html`, pelaksanaan `refine-sort-mobile`, dan tangkapan skrin `certificate-refined-desktop.png`. `test-results.html` ialah ringkasan statik yang tidak menjalankan ujian ketika dibuka.
+
+Had: telefon fizikal, Safari/iOS, pencetak fizikal, dialog PDF sistem operasi, sebutan oleh pendengar manusia dan tempoh sebenar bersama murid belum disahkan. Tindakan cetak diuji dengan pengganti tetingkap cetak dalam Chrome; sijil SVG dan pratonton gambar diuji melalui pemuatan sebenar.
+
+---
+
+Rekod di bawah ialah keputusan versi kempen terdahulu, sebelum penambahbaikan sijil/laluan ini.
+
 # Keputusan ujian sebenar — kempen Rumah Api Selamat
 
 Tarikh: 7 November 2026 (Asia/Kuala_Lumpur). Persekitaran: Windows, Chrome headless, pelayan HTTP tempatan dan profil pelayar ujian berasingan.

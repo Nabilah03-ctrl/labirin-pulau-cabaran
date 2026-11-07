@@ -60,3 +60,9 @@ Peta cerita, cahaya rumah api, jambatan dan animasi maklum balas dibina melalui 
 Katalog audio kini mempunyai 171 rakaman aktif (1343.6 saat untuk semua variasi). Semua menggunakan kaedah, suara dan kadar bacaan yang dinyatakan di atas. Semakan meliputi padanan teks dan penyahkodan MP3; tempoh ini bukan tempoh satu sesi permainan.
 
 Fon Latin DM Sans dan Fredoka dimuat turun daripada Google Fonts dan dibungkus sebagai `assets/fonts/dm-sans-0.woff2` dan `assets/fonts/fredoka-1.woff2`. Lesen OFL daripada repositori rasmi google/fonts disertakan sebagai `assets/fonts/dmsans-OFL.txt` dan `assets/fonts/fredoka-OFL.txt`. Fon tempatan mengelakkan muatan skrip menunggu import CSS luar.
+
+## Sijil dan rakaman susulan
+
+Sijil dibina dalam SVG oleh `certificate.js` mengikut susun atur rujukan pengguna. Watak menggunakan sprite sedia ada, dirender melalui canvas dan dibenamkan sebagai PNG dalam SVG; tiada imej watak baharu dijana. Fail berdiri sendiri untuk dimuat turun/dicetak.
+
+Katalog aktif kini mengandungi 211 rakaman Melayu (1640.5 saat merentas semua teks/set), dengan 11 pemetaan rakaman terdahulu di `assets/audio/ms-MY/legacy.json` bagi sesi lama.

@@ -20,3 +20,11 @@ Misi Aini menegaskan bahawa kandungan bungkusan tidak diketahui hanya melalui ru
 Jawapan salah memberi petunjuk yang berkaitan, tanpa animasi mencuba bahan. Hud memilih udara bersih; Izz menolak pelawaan; Aini menjauh dan meminta bantuan. Aktiviti susunan akhir menggunakan situasi pelawaan mencuba rokok supaya urutan menolak, beredar dan memberitahu sesuai dengan konteks.
 
 Semakan automatik meliputi kesahan pilihan/jawapan semua set, kestabilan set semasa sambung, pemuatan imej, padanan katalog teks/audio dan penyahkodan MP3. Guru boleh menyemak bahasa dan kesukaran bersama murid sebelum penggunaan kelas; sasaran tempoh 10–15 minit masih memerlukan ujian pengguna.
+
+## Semakan susulan: elakkan tugasan berulang
+
+Tahap 2 tidak lagi mengulang kategori tembakau/alkohol/dadah. Tiga kad mewakili risiko kesihatan (jawapan A), pilihan selamat (B), dan peranan orang dewasa (C), masing-masing dengan tiga ayat berbeza. Kad risiko menerangkan asap rokok; kad pilihan menggunakan air kosong; kad bantuan menerangkan arahan ubat oleh doktor, penjaga atau ahli farmasi.
+
+Misi akhir memadankan dua gambar mengikut kiri-ke-kanan (pasangan tembakau/alkohol, alkohol/dadah, atau tembakau/dadah; jawapan A/B/C mengikut set). Situasi bantuan mempunyai jawapan penjaga (A), guru (B), atau menemani adik berjumpa penjaga (C). Aktiviti susunan masih berasaskan pelawaan mencuba bahan ketagihan.
+
+Semakan automatik memastikan 12 prompt penilaian unik dalam setiap sesi dan 33 prompt laluan/misi akhir berbeza merentas tiga set. Bank terhad ini dikitar semula setelah ketiga-tiga set digunakan; ini bukan janji soalan tidak pernah berulang selama-lamanya. Cuba semula selepas salah mengekalkan soalan semasa.
