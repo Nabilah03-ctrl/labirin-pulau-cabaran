@@ -1,53 +1,54 @@
-# Labirin Pulau Cabaran: Misi Detektif Cilik
+# Pulau Cabaran: Misi Detektif Cilik
 
-Permainan Pendidikan Kesihatan Tahun 2 dalam Bahasa Melayu. [Main di GitHub Pages](https://nabilah03-ctrl.github.io/labirin-pulau-cabaran/).
+Permainan Pendidikan Kesihatan Tahun 2 dalam satu pulau 3D sebenar. Kemas kini 8 November 2026 menggantikan labirin 2D dengan tepat tiga stesen dan 12 soalan utama.
 
-## Pengembaraan versi 8 November 2026
+[Main permainan](https://nabilah03-ctrl.github.io/labirin-pulau-cabaran/)
 
-Rumah Api Selamat kehilangan cahaya. Hud, Izz dan Aini meneroka tiga pulau, menyelesaikan pembelajaran dan mengumpul kod untuk membuka peti harta di rumah api.
+## Aliran pembelajaran
 
-| Peta | Empat stesen utama | Pemandangan |
-|---|---|---|
-| Pantai & Jeti | Kenali tembakau, alkohol, dadah terlarang; padankan dua gambar | Pantai, jeti nelayan, teluk karang, perkhemahan |
-| Batu & Gua | Dua pengelasan bukti; betul/salah; situasi penggunaan ubat | Batu, air terjun, gua cerah, menara tinjau |
-| Rumah Api | Bantu Hud, Izz dan Aini; susun langkah keselamatan | Taman pesisir, jambatan, pondok bantuan, rumah api |
+1. Nama panggilan dan kelas → cerita → panduan dan latihan kawalan tanpa markah.
+2. **Kenali Bahan:** empat soalan aneka pilihan A/B/C.
+3. **Siasat dan Padankan:** empat soalan dengan tiga pasangan setiap satu. Seret kad atau tekan kad kemudian sasaran. Padanan betul dikekalkan ketika mencuba semula.
+4. **Tindakan Selamat:** empat situasi, setiap satu dengan empat frasa jawapan dan satu pengganggu. Seret atau tekan frasa untuk menyusun ayat. Jawapan penuh muncul selepas respons tepat.
+5. Selesai empat soalan memberikan satu digit: **4, 7, 2**. Jambatan dipulihkan, laluan menara dibuka, kemudian rumah api menyala.
+6. Gunakan Buku Kod untuk membuka peti 3D, menerima Lencana Wira Pulau Selamat, mendengar ringkasan dan memuat turun/cetak sijil.
 
-**12 soalan utama dalam satu sesi**, dipilih daripada bank tetap 36 entri dalam tiga set. Latihan, cerita dan memasukkan kod tidak dikira sebagai soalan. Tiada prompt utama berulang dalam satu sesi; sesi baharu memilih set berikutnya. Selepas tiga set, bank digunakan semula. Tiada penjanaan soalan secara langsung.
+Tiada kod pintu, kod setiap soalan, pilihan mod, aksesori, pembelian atau pemasa ketat. Soalan selesai tidak diulang dalam sesi. Kesalahan dan bantuan tidak memadam kemajuan atau mengurangkan markah.
 
-Sebelas aktiviti pilihan mengimbangkan jawapan A/B/C kepada 4/4/3, tanpa tiga huruf jawapan sama berturut-turut. Betul/salah mempunyai dua pilihan. Urutan aktiviti susunan tidak diacak. Pilihan, jawapan dan audio disimpan bersama sesi supaya percubaan semula tidak menukar soalan.
+## Kawalan dan audio
 
-## Pintu dan peti harta
+- Tekan/sentuh tanah atau objek: cari laluan sah. Anak panah/WASD dan pad arah ialah alternatif.
+- Seret peta: alih kamera. Roda tetikus, cubitan atau butang +/−: zum. **Cari Watak** memusatkan kamera.
+- **Siasat / Masuk Stesen** berfungsi apabila dekat. Objek tambahan ditandakan pilihan dan bukan syarat kemajuan.
+- **Petunjuk Arah** menunjukkan laluan, bukan jawapan. **Jeda** menyediakan kurangkan pergerakan dan panduan.
 
-Setiap stesen memberi kad dua digit dengan nama pintu yang sepadan. Gunakan papan kekunci atau pad nombor untuk memasukkannya. **Buku Kod Detektif** sentiasa boleh dibuka; kod tidak perlu dihafal. Kod salah memberikan petunjuk tanpa memadam kemajuan. Pintu terbuka kekal terbuka, termasuk selepas menyambung sesi.
+122 rakaman Bahasa Melayu dibungkus bersama permainan, berjumlah 750.1 saat bagi seluruh katalog. Butang dengar setiap item, Dengar Semua, ulang, henti dan kelantangan tersedia. Teks suntingan guru menggunakan suara Melayu peranti jika tersedia; tiada penggantian senyap dengan bahasa lain. Kegagalan audio tidak menghalang jawapan. Tiada muzik latar yang bersaing dengan bacaan.
 
-Empat stesen dan empat pintu mesti selesai untuk memperoleh satu digit harta bagi peta tersebut. Tiga ruang berasingan dalam buku menunjukkan urutan digit. Peti akhir berhampiran rumah api hanya terbuka selepas semua misi dan kod lengkap. Penamat menyediakan Lencana Wira Pulau Selamat, ringkasan bergambar dan bersuara, pilihan aksesori serta sijil.
+## Menjalankan secara tempatan
 
-Sijil mengekalkan bingkai biru/kuning, nama dan kelas, watak Hud/Izz, skor, tiga misi, lencana dan tarikh. Pratonton, muat turun dan cetak/simpan PDF dikekalkan.
+Gunakan pelayan HTTP statik kerana dunia menggunakan modul JavaScript, contohnya `python -m http.server 8788`, kemudian buka `http://localhost:8788/`. `file://` tidak disokong. Three.js r170 dan fon dibungkus setempat; tiada CDN diperlukan. Pelayar memerlukan WebGL 2 dan pecutan grafik.
 
-## Peta, bantuan dan kawalan
+| Fail | Tanggungjawab |
+|---|---|
+| island-world.js | Geometri 3D, kamera, animasi, perlanggaran dan pencarian laluan |
+| island-app.js | UI, tiga mekanik, guru, kod dan penamat |
+| lesson-data.js | 12 soalan tetap, panduan, dialog dan katalog audio |
+| progress.js | Simpanan, rekod respons dan migrasi |
+| illustrations.js | SVG/PNG, sandaran dan potret sijil |
+| voice.js, audio-manifest.js | Saluran audio tunggal dan rakaman Melayu |
+| certificate.js | Sijil SVG dan cetakan |
+| island.css | Susun atur responsif dan pengurangan animasi |
 
-Setiap peta mempunyai empat kawasan dengan stesen di empat penjuru. Laluan kayu menghubungkan kawasan; beberapa laluan alternatif wujud di dalam kawasan. Empat pokok kelapa kecil menjadi hiasan, bukannya dinding labirin. Batu, bangunan dan air mempunyai sempadan perlanggaran yang sepadan dengan lukisan. Ombak, burung, bot dan air terjun memberi suasana pulau.
+## Simpanan dan guru
 
-- Kamera mengikuti watak dengan lancar; **Lihat seluruh pulau** memberi pandangan keseluruhan.
-- Peta mini, tanda selesai, petunjuk arah dan tawaran bantuan apabila mengulang kawasan.
-- Anak panah/WASD, pad arah tetikus/sentuh, E untuk Siasat dan P untuk petunjuk.
-- Pengelasan dan susunan menyokong seretan atau ketikan. Soalan menjeda pergerakan.
-- Empat objek maklumat pilihan setiap peta, dibuka melalui Siasat. Objek pilihan tidak menjadi syarat keluar.
-- Mod Berpandu, Kendiri dan Kelas; latihan tanpa markah; demonstrasi; ulang arahan; kurangkan animasi; kelantangan audio.
-- Versi peta ini tidak menggunakan halangan bergerak yang menghukum pemain. Tetapan lama dikekalkan untuk keserasian.
+Simpanan baharu: `pulau-cabaran-3d-v1`. Kunci lama `labirin-pulau-v2` tidak dipadam. Profil diimport dan seluruh keadaan lama diarkibkan dalam simpanan baharu. Respons dan sijil terdahulu tersedia melalui Ruang Guru; soalan baharu bermula belum dijawab kerana aktiviti berbeza. Kemajuan disimpan pada pelayar/peranti, bukan akaun awan.
 
-## Audio, cerita dan simpanan
+Ruang Guru menyediakan panduan, suntingan sesi, respons pertama berbanding selepas bantuan, bilangan petunjuk dan CSV semua medan rekod. Skor bukan tahap penguasaan rasmi. Suntingan tidak menambah soalan atau menukar mekanik stesen.
 
-465 rakaman MP3 aktif Bahasa Melayu (`ms-MY-YasminNeural`, bacaan 12% lebih perlahan), bersama 11 rakaman warisan. Katalog meliputi semua huruf pilihan, soalan, penerangan, cerita, panduan, kod dan ringkasan. Bacaan menyorot teks; menukar paparan menghentikan suara lama. Jika rakaman gagal, suara sistem Melayu boleh digunakan; jika tiada, permainan tetap boleh diteruskan dengan teks. Suntingan guru yang tiada rakaman memerlukan suara Melayu peranti.
+## Pengesahan dan batas
 
-Kemajuan disimpan dalam localStorage pada peranti yang sama selepas stesen dan pintu. Tiada akaun atau penghantaran nama murid ke pelayan permainan. Sesi lama mengekalkan jawapan, pintu terbuka dan koleksi; stesen keempat baharu perlu diselesaikan sebelum digit harta diberikan. Sepanduk menerangkan perubahan ini.
+Lihat [laporan ujian](tests/RESULTS.md) dan [semakan kandungan](tests/BANK-REVIEW.md). Ujian meliputi aliran penuh, audio, migrasi dan input papan kekunci/sentuh melalui Chrome CDP. Visual diperiksa pada desktop dan lebar 390 px.
 
-Ganjaran kosmetik tetap dan pilihan, termasuk bagi murid yang menggunakan bantuan. Aksesori tidak mengubah skor. Aini mengekalkan tudung dan pakaian sopan. Cerita dan animasi peti boleh dilangkau; kegagalan audio tidak menghalang pembelajaran.
+Had piksel, bayang 1024 px dan penurunan kualiti automatik tersedia. Prestasi pada komputer sekolah/tablet fizikal, tempoh sesi murid, kefahaman dan sebutan melalui pembesar suara sebenar belum disahkan. Tiada dakwaan kadar bingkai atau prestasi universal.
 
-## Menjalankan dan menguji
-
-Laman statik tanpa proses binaan. Gunakan hos HTTP dengan semua fail akar dan folder `assets`. Modul tambahan: `expedition.js` (bank, kod, katalog) dan `island-art.js` (pemandangan kanvas). Fon dan audio disertakan secara tempatan.
-
-`tests/expedition.html` menguji pengembaraan, migrasi dan bank. `tests/learning.html` menguji panduan, audio, latihan dan rekod guru. Ujian memadam storan permainan pada origin ujian; gunakan origin/profil pelayar berasingan. Halaman ujian lama menghala kepada suite pengembaraan semasa.
-
-Lihat [keputusan ujian](tests/RESULTS.md), [semakan bank](tests/BANK-REVIEW.md), [perubahan](CHANGES.md) dan [asal aset](assets/ASSETS.md). CSV membantu pemerhatian guru; skor permainan bukan tahap penguasaan rasmi. Tempoh bermain dan kefahaman sebenar masih memerlukan ujian bersama murid.
+Sandaran: `.deploy-tools/backups/pre-3d-20261108.zip` dan `removed-3d-20261108.zip`. Komit terdahulu `501f69bdce9d22fa1fc4362dd5bf0613db4b43c5` ialah titik pemulihan tambahan. Alat dan sandaran tempatan tidak diterbitkan.

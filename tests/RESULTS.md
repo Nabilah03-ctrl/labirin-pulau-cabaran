@@ -1,28 +1,31 @@
-# Keputusan versi pulau dan kod — 8 November 2026
+# Keputusan ujian — Pulau 3D, 8 November 2026
 
-Chrome pada hos HTTP tempatan, profil ujian berasingan. **1,420 semakan lulus dan empat ujian input sentuh sebenar melalui emulasi Chrome lulus.** Tiada ralat JavaScript dalam pelaksanaan berjaya.
+## Ujian yang dijalankan
 
-| Suite | Lulus | Liputan |
+| Suite | Lulus | Bukti tempatan |
 |---|---:|---|
-| Pengembaraan (`expedition.html`) | 419 | Semua 12 stesen, 12 pintu, tiga digit, peti, penamat, sijil, simpan/sambung, migrasi dan bank |
-| Pembelajaran/audio (`learning.html`) | 1,001 | Panduan, latihan, mod kelas, bantuan, rekod guru, semua teks audio dan penyahkodan 476 MP3 |
-| Input sentuh Chrome | 4 | Seret kad, ketik kad/kategori selepas cuba semula, kod salah, buku kod dan pintu betul |
+| Aliran permainan 3D | 144 | test-results-island3d-final.html |
+| Audio, aset, kegagalan audio dan draf | 264 | test-results-audio3d-cleanup-release.html |
+| Input sebenar Chrome CDP | 8 | input3d-world-release-mobile, input3d-match-mobile, input3d-sentence-mobile, input3d-keypad-mobile |
 
-## Perkara yang disahkan
+**408 semakan fungsi/aset dan 8 semakan input.** Ujian visual separa serta percubaan terdahulu tidak ditambah kepada jumlah ini. Tiada ralat JavaScript pada ujian berjaya.
 
-- Empat stesen tersebar di empat penjuru setiap peta; semua stesen dan pintu dicapai melalui pergerakan fizikal watak. Pintu tertutup tidak boleh dipintas. Semua jalan keluar boleh dicapai selepas pintu selesai.
-- Pokok kelapa maksimum empat setiap peta. Jejak bangunan dan batu sepadan dengan perlanggaran. Pantai, jeti, gua dan rumah api diperiksa melalui tangkapan skrin; peta menyeluruh dan kamera mengikuti watak tersedia.
-- Tiga set tetap mempunyai empat soalan setiap tahap. Setiap sesi mempunyai 12 prompt berbeza. Untuk 40 benih bagi setiap set, A/B/C seimbang, tiada tiga huruf jawapan sama berturut-turut, jawapan selepas acakan kekal bermakna sama.
-- Kod diberikan selepas jawapan selesai, disimpan dengan identiti pintu betul dan boleh dilihat semula. Pad nombor dan input papan kekunci berfungsi. Kod salah mengekalkan rekod dan keadaan pintu. Memasukkan kod tidak dikira sebagai soalan.
-- Digit harta belum tersedia sebelum keempat-empat pintu selesai. Buku mengekalkan urutan tiga digit berasingan. Kod peti salah tidak merosakkan kemajuan. Kod betul membuka peti dan penamat; animasi boleh dilangkau.
-- Jawapan salah kekal pada soalan sama. Pengesahan berulang tidak memberi ganjaran berganda. Latihan tidak mengubah markah. Urutan seret/susun boleh dicuba semula.
-- Muat semula mengekalkan susunan soalan, kod, pintu, kemajuan dan ganjaran yang belum dipilih. Migrasi sesi lama mengekalkan jawapan, pintu terbuka serta koleksi; pemain meneruskan stesen keempat baharu.
-- Sijil 1400px dengan potret terbenam masih dirender pada penamat. Ringkasan bersuara dan ganjaran aksesori tersedia. Editor guru menyokong betul/salah tanpa pilihan ketiga palsu.
-- Katalog 465 rakaman aktif sepadan dengan teks. 11 rakaman warisan turut boleh dinyahkod. 476 MP3 dimuat dan dinyahkod dalam pelayar. Bacaan pilihan selepas acakan sepadan dengan hurufnya. Kegagalan audio diuji dan permainan masih boleh diteruskan.
-- Paparan desktop 1440px dan buku kod 390px diperiksa. Input sentuh menggunakan `Input.dispatchTouchEvent`, bukan sekadar panggilan klik JavaScript.
+Aliran penuh: borang, cerita, lima langkah panduan, latihan bergerak/Siasat tanpa markah, tiga demonstrasi, empat soalan setiap stesen, jawapan salah dan petunjuk, padanan separa yang kekal betul, seret/lepas dan tekan, ayat dengan pengganggu, ganjaran sekali sahaja, tiga digit tersusun, kod salah, peti berengsel, ringkasan, sijil, guru dan migrasi rekod lama.
 
-## Had semakan
+Pencarian laluan diuji melalui pergerakan fizikal simulasi masa ke semua stesen dan peti. Sungai menghalang stesen kedua sebelum jambatan dipulihkan; laluan menara hanya dibuka selepas stesen kedua. Rekod selesai dan soalan kekal selepas muat semula. CSV baharu menyimpan medan respons; CSV lama mengekalkan ID asal.
 
-Telefon/tablet fizikal, Safari, cetakan pada pencetak sebenar dan ujian pengguna bersama murid belum dilakukan. Penyahkodan audio mengesahkan fail boleh dimainkan, bukan semakan sebutan manusia bagi setiap rakaman. Sasaran masa 10–15 minit belum disahkan dengan murid. Sesi menggunakan semula bank selepas tiga set; tiada jaminan soalan tidak akan berulang selama-lamanya.
+Audio: 122 pemetaan teks serta 122 fail MP3 dinyahkod melalui AudioContext Chrome. Bacaan pilihan A/B/C dan sasaran padanan tepat, suara lama dihentikan, kelantangan disimpan. Dengar Semua membaca frasa mengikut paparan tanpa membacakan ayat sasaran. Simulasi kegagalan rakaman dan ketiadaan suara Melayu tidak menghalang jawapan. PNG, SVG sandaran dan fon diperiksa; sijil memuatkan potret terbenam.
 
-Ujian ini memadam storan permainan pada origin ujian. Gunakan profil atau origin berasingan daripada sesi murid. `test-results.html` ialah ringkasan statik yang selamat dilihat tanpa mengubah kemajuan.
+Input CDP menggunakan Input.dispatchKeyEvent dan Input.dispatchTouchEvent: papan kekunci bergerak, seretan peta berasingan daripada arahan berjalan, zum/Cari Watak, ketikan tanah hingga Siasat, seretan kad, alternatif tekan, percubaan semula ayat, serta Buku Kod/pad nombor. Lebar paparan sentuh 390 px. Seretan desktop turut disemak melalui DragEvent/DataTransfer dalam suite fungsi.
+
+Paparan desktop dan telefon diperiksa melalui tangkapan skrin: halaman utama, dunia, kad padanan, susunan ayat dan pad kod. Dunia menggunakan WebGLRenderer dengan geometri sebenar. Renderer ujian menggunakan SwiftShader; keputusan ini bukan penanda aras GPU.
+
+## Batas pengesahan
+
+- Belum diuji bersama murid Tahun 2 atau pada komputer sekolah/tablet fizikal. Tempoh 10–15 minit dan kebolehgunaan memerlukan ujian pengguna.
+- Tiada pengukuran prestasi peranti sasaran, walaupun had piksel/bayang dan penurunan kualiti automatik tersedia.
+- Safari/iOS, cetakan pencetak fizikal dan sebutan melalui pembesar suara sebenar belum disahkan. SVG sijil telah dimuatkan; butang cetak menggunakan dialog pelayar.
+- Suntingan guru yang tiada rakaman bergantung pada suara Melayu peranti. Jika tiada, teks dan permainan kekal tersedia.
+- Peranti memerlukan WebGL 2. Jika gagal dimulakan, paparan menerangkan cara mencuba semula dan simpanan tidak dipadam.
+
+Suite ujian menggunakan profil Chrome berasingan. Halaman ujian turut menyimpan dan memulihkan kedua-dua kunci simpanan asal setelah ujian penuh selesai. Sandaran kod lama dan aset dibuang disahkan sebelum pembersihan.
