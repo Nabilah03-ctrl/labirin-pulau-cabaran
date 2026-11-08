@@ -21,3 +21,7 @@ Sandaran disahkan sebelum pemadaman. **496 fail** dibuang daripada sumber/penerb
 Import, rujukan dinamik, manifest audio dan senarai penerbitan disemak. Tiada service worker dalam aplikasi aktif. 122 audio aktif, dua PNG bahan, sprite potret sijil, fon dan lesen dikekalkan. ZIP eksport terdahulu dikekalkan sebagai bahan pemulihan pengguna. Laporan percubaan diarkibkan berasingan daripada kod terbitan.
 
 Keputusan sebenar dan batas pengesahan ada dalam tests/RESULTS.md. Prestasi peranti fizikal serta tempoh sesi murid belum disahkan.
+
+## Muka depan mengikut rujukan pengguna
+
+Tajuk besar kuning/putih, kad nama dan kelas terus pada halaman, tiga potret Hud/Izz/Aini, dialog sambutan dan jalur tiga misi. Warna hijau laut, krim dan emas mengekalkan tema pulau. Cara Bermain, Bahan Detektif bersuara, bunyi, kurangkan animasi, Ruang Guru dan Sambung tersedia. Misi baharu masih memerlukan pengesahan jika kemajuan tersimpan. `island-home.js` dan `cover.css` mengasingkan reka bentuk muka depan daripada dunia 3D.

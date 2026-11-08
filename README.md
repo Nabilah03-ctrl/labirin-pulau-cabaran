@@ -52,3 +52,7 @@ Lihat [laporan ujian](tests/RESULTS.md) dan [semakan kandungan](tests/BANK-REVIE
 Had piksel, bayang 1024 px dan penurunan kualiti automatik tersedia. Prestasi pada komputer sekolah/tablet fizikal, tempoh sesi murid, kefahaman dan sebutan melalui pembesar suara sebenar belum disahkan. Tiada dakwaan kadar bingkai atau prestasi universal.
 
 Sandaran: `.deploy-tools/backups/pre-3d-20261108.zip` dan `removed-3d-20261108.zip`. Komit terdahulu `501f69bdce9d22fa1fc4362dd5bf0613db4b43c5` ialah titik pemulihan tambahan. Alat dan sandaran tempatan tidak diterbitkan.
+
+## Muka depan mengikut rujukan pengguna
+
+Tajuk besar kuning/putih, kad nama dan kelas terus pada halaman, tiga potret Hud/Izz/Aini, dialog sambutan dan jalur tiga misi. Warna hijau laut, krim dan emas mengekalkan tema pulau. Cara Bermain, Bahan Detektif bersuara, bunyi, kurangkan animasi, Ruang Guru dan Sambung tersedia. Misi baharu masih memerlukan pengesahan jika kemajuan tersimpan. `island-home.js` dan `cover.css` mengasingkan reka bentuk muka depan daripada dunia 3D.

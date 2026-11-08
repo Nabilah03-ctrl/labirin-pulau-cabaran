@@ -4,11 +4,11 @@
 
 | Suite | Lulus | Bukti tempatan |
 |---|---:|---|
-| Aliran permainan 3D | 144 | test-results-island3d-final.html |
-| Audio, aset, kegagalan audio dan draf | 264 | test-results-audio3d-cleanup-release.html |
+| Aliran permainan 3D | 144 | test-results-cover-flow.html |
+| Audio, aset, kegagalan audio dan draf | 272 | test-results-cover-audio-mobile.html |
 | Input sebenar Chrome CDP | 8 | input3d-world-release-mobile, input3d-match-mobile, input3d-sentence-mobile, input3d-keypad-mobile |
 
-**408 semakan fungsi/aset dan 8 semakan input.** Ujian visual separa serta percubaan terdahulu tidak ditambah kepada jumlah ini. Tiada ralat JavaScript pada ujian berjaya.
+**416 semakan fungsi/aset dan 8 semakan input.** Ujian visual separa serta percubaan terdahulu tidak ditambah kepada jumlah ini. Tiada ralat JavaScript pada ujian berjaya.
 
 Aliran penuh: borang, cerita, lima langkah panduan, latihan bergerak/Siasat tanpa markah, tiga demonstrasi, empat soalan setiap stesen, jawapan salah dan petunjuk, padanan separa yang kekal betul, seret/lepas dan tekan, ayat dengan pengganggu, ganjaran sekali sahaja, tiga digit tersusun, kod salah, peti berengsel, ringkasan, sijil, guru dan migrasi rekod lama.
 
@@ -29,3 +29,7 @@ Paparan desktop dan telefon diperiksa melalui tangkapan skrin: halaman utama, du
 - Peranti memerlukan WebGL 2. Jika gagal dimulakan, paparan menerangkan cara mencuba semula dan simpanan tidak dipadam.
 
 Suite ujian menggunakan profil Chrome berasingan. Halaman ujian turut menyimpan dan memulihkan kedua-dua kunci simpanan asal setelah ujian penuh selesai. Sandaran kod lama dan aset dibuang disahkan sebelum pembersihan.
+
+## Muka depan rujukan detektif
+
+Lapan semakan tambahan meliputi kad nama/kelas, tiga watak, medan wajib, Cara Bermain, Bahan Detektif dan audionya, suis bunyi, kurangkan animasi serta lebar paparan. Paparan desktop 1440 px dan telefon 390 px diperiksa secara visual. 144 semakan aliran penuh diulang selepas borang dipindahkan ke muka depan.
