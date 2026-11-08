@@ -25,3 +25,13 @@ Keputusan sebenar dan batas pengesahan ada dalam tests/RESULTS.md. Prestasi pera
 ## Muka depan mengikut rujukan pengguna
 
 Tajuk besar kuning/putih, kad nama dan kelas terus pada halaman, tiga potret Hud/Izz/Aini, dialog sambutan dan jalur tiga misi. Warna hijau laut, krim dan emas mengekalkan tema pulau. Cara Bermain, Bahan Detektif bersuara, bunyi, kurangkan animasi, Ruang Guru dan Sambung tersedia. Misi baharu masih memerlukan pengesahan jika kemajuan tersimpan. `island-home.js` dan `cover.css` mengasingkan reka bentuk muka depan daripada dunia 3D.
+
+## Ilustrasi manusia pada semua soalan
+
+14 ilustrasi 3D kartun baharu menggambarkan murid, rakan dan guru dengan ekspresi dan gerak badan yang jelas. Lapan soalan aneka pilihan/susunan ayat mempunyai gambar situasi utama; setiap empat soalan padanan mempunyai tiga kad bergambar manusia. Gambar berkaitan digunakan semula apabila fokusnya sama. Semua soalan kini bergambar.
+
+Butang Besarkan gambar membuka paparan penuh, boleh ditutup dengan sentuhan, butang Tutup atau Escape. Fokus kembali kepada soalan dan kawalan pulau kekal dijeda. Kegagalan gambar memaparkan huraian Bahasa Melayu, bukannya rajah manusia geometri yang mengelirukan. Soalan, jawapan, audio dan simpanan tidak ditukar. Pemetaan mengikut ID soalan turut berfungsi pada sesi tersimpan.
+
+Fail JPEG di assets/scenes/ (14 fail, 3,590,595 bait keseluruhan), dengan set prompt dan catatan pembaikan dalam assets/scenes/PROMPTS.md. Alat imagegen terbina dalam digunakan; PNG asal disimpan dalam .deploy-tools/scene-originals. Penukaran JPEG mengekalkan dimensi 1536 × 1024, tanpa mengubah kandungan gambar.
+
+Bungkusan tidak dikenali tidak dilabel sebagai dadah. Poster tidak menggunakan pil atau picagari untuk mewakili semua dadah terlarang. Tiada gambar perbuatan mencuba atau mengambil bahan. Gambar Stesen 3 menggambarkan situasi sebelum murid memilih respons; gambar tindakan selamat digunakan pada kad yang memang meminta padanan tindakan dengan tujuan.

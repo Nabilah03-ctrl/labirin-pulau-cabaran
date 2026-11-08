@@ -1,3 +1,23 @@
+# Keputusan semasa: ilustrasi manusia, 8 November 2026
+
+**536 semakan fungsi/aset lulus, serta 5 semakan input Chrome CDP.**
+
+| Suite | Lulus | Bukti |
+|---|---:|---|
+| Aliran permainan lengkap | 144 | test-results-scenes-full-flow.html |
+| Audio, aset dan kegagalan audio | 272 | test-results-scenes-audio.html |
+| Semua gambar, pembesaran, teks sandaran dan sesi tersimpan | 120 | test-results-scenes-verified.html |
+| Sentuhan pembesaran/tutup dan Escape | 3 | scenes-mobile-final |
+| Seret kad dan alternatif tekan kad/sasaran | 2 | scenes-match-final |
+
+Semua 12 soalan mempunyai ilustrasi manusia: lapan gambar utama dan 12 kad padanan, menggunakan 14 aset berlainan. Semua JPEG berjaya dinyahkod pada dimensi 1536 × 1024. Pembesaran tidak mengubah rekod, jawapan atau jeda permainan. Kegagalan gambar memaparkan penerangan Melayu. Sesi tersimpan menerima gambar baharu tanpa mengubah bank soalan.
+
+Paparan desktop dan emulasi telefon 390 px diperiksa. Input sentuh dan Escape dihantar melalui Chrome CDP; bukan ujian tablet fizikal. Tiada ralat JavaScript dalam ujian berjaya. Larian awal yang terganggu oleh pelayan tempatan dan ujian Escape tanpa kod kekunci asli dibaiki dan diulang; tidak dimasukkan dalam jumlah lulus.
+
+Kejelasan gambar untuk murid Tahun 2 masih perlu dinilai bersama murid. Safari/iOS dan prestasi peranti sekolah belum disahkan.
+
+---
+
 # Keputusan ujian — Pulau 3D, 8 November 2026
 
 ## Ujian yang dijalankan

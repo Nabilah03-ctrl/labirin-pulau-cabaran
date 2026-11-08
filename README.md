@@ -56,3 +56,5 @@ Sandaran: `.deploy-tools/backups/pre-3d-20261108.zip` dan `removed-3d-20261108.z
 ## Muka depan mengikut rujukan pengguna
 
 Tajuk besar kuning/putih, kad nama dan kelas terus pada halaman, tiga potret Hud/Izz/Aini, dialog sambutan dan jalur tiga misi. Warna hijau laut, krim dan emas mengekalkan tema pulau. Cara Bermain, Bahan Detektif bersuara, bunyi, kurangkan animasi, Ruang Guru dan Sambung tersedia. Misi baharu masih memerlukan pengesahan jika kemajuan tersimpan. `island-home.js` dan `cover.css` mengasingkan reka bentuk muka depan daripada dunia 3D.
+
+Semua 12 soalan kini menggunakan ilustrasi manusia. Tekan **Besarkan gambar** untuk melihat wajah, objek dan gerak badan dengan jelas. Kod pemetaan dan pembesaran: `question-scenes.js` / `question-scenes.css`; [aset dan prompt](assets/scenes/PROMPTS.md).
